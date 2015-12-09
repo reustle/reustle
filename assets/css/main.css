@@ -2305,7 +2305,7 @@ body.landing #page-wrapper {
 
 /* Main */
 #main {
-  padding: 4em 0; }
+  padding: 4em 0 1em 0; }
   #main > header {
     text-align: center;
     margin: 0 0 3em 0; }
@@ -2325,8 +2325,8 @@ body.landing #main {
 
 /* Footer */
 #footer {
-  background: #f0f0f0;
-  padding: 4em 0 6em 0;
+  background: #f5f5f5;
+  padding: 0;
   text-align: center; }
   #footer .icons a {
     -moz-transition: opacity 0.2s ease-in-out;
