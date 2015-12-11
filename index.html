@@ -1,6 +1,9 @@
+---
+---
 <html>
 	<head>
 		<link href='/static/lib/bootstrap/css/bootstrap.min.css' rel='stylesheet'>
+		<link href='/css/landing.css' rel='stylesheet'>
 	</head>
 	<body>
 		
@@ -10,42 +13,15 @@
 			
 			<div class='card-columns'>
 				
-				<div class='card'>
-					<img class='card-img' width='100%' alt='laos' src='https://fbcdn-photos-f-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-0/p206x206/12314035_914682215253086_8369856473067885446_n.jpg?oh=df45db4bb78963bef87fa5d553826d3b&oe=56DE59B4&__gda__=1461308425_11f5c3dca7b96e66cc9cf6a2a26097eb'>
-				</div>
-				
-				<div class='card'>
-					<img class='card-img' width='100%' alt='laos' src='https://fbcdn-photos-f-a.akamaihd.net/hphotos-ak-xlp1/v/t1.0-0/p206x206/12341313_914296495291658_2431033280994971846_n.jpg?oh=cd23e597168a45a9d2c53f623e8a22e1&oe=56D7EDA9&__gda__=1457068695_23cfc2d5354d0121b2672e7eb278f207'>
-				</div>
-				
-				<div class='card'>
-					<img class='card-img' width='100%' alt='laos' src='https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-0/p206x206/12118852_893119600742681_5485486378079042853_n.jpg?oh=eedbdf6b62638a54f7cbd94eff21627c&oe=56EA9F1B&__gda__=1457515845_ac2f5932f074b4c44e573199a63915d8'>
-				</div>
-	
-				<div class='card'>
-					<img class='card-img' width='100%' alt='laos' src='https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xft1/v/t1.0-0/q81/p206x206/11988358_884216428299665_1650768502806381043_n.jpg?oh=57b43b65362ddd0ab9de998b5efdfd3d&oe=56E2617F&__gda__=1461195552_ef319cbd4a8d33d50f99c8ad17bc3b9c'>
-				</div>
-	
-				<div class='card'>
-					<img class='card-img' width='100%' alt='laos' src='https://fbcdn-photos-f-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-0/p206x206/12038403_883322808389027_3774215149390522907_n.jpg?oh=cf69773652d4adf2b907751e696f1905&oe=56E0385B&__gda__=1461731374_10a5078499b0507f0a5e5081aa0e61fc'>
-				</div>
-			
-				<div class='card'>
-					<img class='card-img' width='100%' alt='laos' src='https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-0/p206x206/12006178_882224778498830_3139257562129155710_n.jpg?oh=d8973736b8b417e529c61d0a607738c7&oe=56E1CBF8&__gda__=1457678024_0018ffeb6529d67f2584c67442c63a01'>
-				</div>
-			
-				<div class='card'>
-					<img class='card-img' width='100%' alt='laos' src='https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-0/p206x206/11781641_881418258579482_6788988692406043583_n.jpg?oh=e06b5a55ca2a917bf85efd4bb50dbd1f&oe=56DBFD46&__gda__=1457607528_d763828d210277938d5397b5f3dc2ff9'>
-				</div>
-			
-				<div class='card'>
-					<img class='card-img' width='100%' alt='laos' src='https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-xpt1/v/t1.0-0/p206x206/11836742_866043963450245_604332056829409035_n.jpg?oh=68626882120c01235411bbac46a1437d&oe=56D990D2&__gda__=1461058804_ad6a87acd2da905f0552fd67841f5e57'>
-				</div>
-	
-				<div class='card'>
-					<img class='card-img' width='100%' alt='laos' src='https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xlp1/v/t1.0-0/p206x206/11693991_857683474286294_3458036541288667756_n.jpg?oh=45132533ae5abb8abbe61af4e2c38edd&oe=56DC5BFA&__gda__=1458119876_a956293355c62be84f66de4ba9bb9f38'>
-				</div>
-			
+				{% for photo in site.data.photos %}
+					
+					<div class='card'>
+						<a href='https://www.facebook.com/photo.php?fbid={{ photo.fbPhotoId }}&set=a.822372551150720.1073741833.100001339471339' target="_blank">
+							<img class='card-img' width='100%' alt='{{ photo.title }}' src='/static/photos/{{ photo.filename }}'>
+						</a>
+					</div>
+					
+				{% endfor %}
 				
 			</div>
 

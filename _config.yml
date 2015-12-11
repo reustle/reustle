@@ -1,0 +1,11 @@
+# Site settings
+title: Shane Reustle | Adventurer & Entrepreneur
+email: me@shanereustle.com
+baseurl: ""
+url: "http://reustle.org"
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+
