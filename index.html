@@ -17,26 +17,36 @@
 		<div class='body-container'>
 			
 			<div class='bio'>
-				<p class='lead'>I'm <strong>Shane Reustle</strong>, a avid traveler and software engineer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id aliquam purus. Nulla a commodo urna. Ut tempus risus ut erat tincidunt fringilla. Integer dapibus, elit nec dapibus lacinia, dolor est accumsan risus, at pharetra dui lacus id est. Sed ipsum purus, bibendum vitae tincidunt eu, luctus eget nunc. Vivamus eget metus dolor. Proin fringilla scelerisque ex in ullamcorper. Nunc sed eleifend risus. Mauris vel finibus nibh.</p>
+				<p class='lead'>
+					I'm <strong>Shane Reustle</strong>, an avid traveler and software engineer.
+					After feeling unsatisfied with office life in New York City, I set out on a mission to slowly make my way around the world by land and sea.
+					So far I've visited over 15 countries by bus, train, boat, and motorcycle.
+					Meanwhile, I've built a fully remote software company which has produced some exciting new products for clients.
+				</p>
+				<p class='lead'>
+					I've quickly come to realize that life is better spent focusing on your passions and building a career around them, not the other way around.
+					I hope you enjoy my photos as a short glimpse into my recent adventures, and that they may insire you to pursue your goals.
+					If you have any questions I might be able to answer, feel free to <a href='mailto:me@shanereustle.com'>email me</a>.
+				</p>
 			</div>
 			
 			<div class='photo-grid'>
 				
-				{% for photo in site.data.photos %}<div class='photo-tile'><a href='{{ photo.url }}' style='background-image: url("/static/photos/{{ photo.filename }}")' target='_blank'></a></div>{% endfor %}
+				{% for photo in site.data.photos %}<div class='photo-tile'><a href='{{ site.fb }}{{ photo.url }}' style='background-image: url("/static/photos/{{ photo.filename }}")' target='_blank'></a></div>{% endfor %}
 				
 			</div>
 			
-			<div class='text-xs-right'>
-				<a class='btn btn-primary' href='https://www.facebook.com/shanereustle/media_set?set=a.822372551150720.1073741833.100001339471339&type=3'>View All Photos</a>
+			<div class='row'>
+				<div class='col-sm-7'>
+					<a class='btn btn-primary' href='http://facebook.com/shanereustle'>Facebook</a>
+					<a class='btn btn-primary' href='http://instagram.com/sreustle'>Instagram</a>
+					<a class='btn btn-primary' href='http://twitter.com/reustle'>Twitter</a>
+					<a class='btn btn-primary' href='mailto:me@shanereustle.com'>Email</a>
+				</div>
+				<div class='col-sm-5 text-sm-right'>
+					<a class='btn btn-primary' href='{{ site.fb }}shanereustle/media_set?set=a.822372551150720.1073741833.100001339471339' target='_blank'>More Photos</a>
+				</div>
 			</div>
-			
-			<div class='text-xs-center'>
-				<a href='http://facebook.com/shanereustle'>Facebook</a> &minus;
-				<a href='http://instagram.com/sreustle'>Instagram</a> &minus;
-				<a href='http://twitter.com/reustle'>Twitter</a> &minus;
-				<a href='mailto:me@shanereustle.com'>Email</a>
-			</div>
-			
 		</div>
 		
 		<script src='/static/lib/jquery/jquery-1.11.1.min.js'></script>
