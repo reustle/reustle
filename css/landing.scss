@@ -1,20 +1,37 @@
 ---
 ---
 
+$breakpoint: 905px;
+
+
+body {
+	background: #fafafa
+}
+
 .body-container {
 	
-	@media (min-width: 905px){
+	@media (min-width: $breakpoint){
 		width: 900px;
+		margin: auto;
 	}
 	width: 100%;
+	padding-bottom: 30px;
 	
-	margin: auto;
+}
+
+.bio {
+	padding: 25px 0px;
+	text-align: justify;
+	
+	@media (max-width: $breakpoint){
+		margin: 0px 15px;
+	}
+	
 }
 
 .photo-grid {
-	//background: blue;
 	
-	@media (min-width: 905px){
+	@media (min-width: $breakpoint){
 		.photo-tile:nth-child(3n+3) {  
 			margin-right: 0px;
 		}
@@ -22,8 +39,7 @@
 	
 	.photo-tile {
 		
-		
-		@media (min-width: 905px){
+		@media (min-width: $breakpoint){
 			display: inline-block;
 			height: 280px;
 			width: 280px;
@@ -45,6 +61,10 @@
 			width: 100%;
 			background-position: center center;
 			background-size: cover;
+			
+			&:hover {
+				opacity: 0.9;
+			}
 		}
 	}
 	

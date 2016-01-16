@@ -16,12 +16,27 @@
 		
 		<div class='body-container'>
 			
+			<div class='bio'>
+				<p class='lead'>I'm <strong>Shane Reustle</strong>, a avid traveler and software engineer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id aliquam purus. Nulla a commodo urna. Ut tempus risus ut erat tincidunt fringilla. Integer dapibus, elit nec dapibus lacinia, dolor est accumsan risus, at pharetra dui lacus id est. Sed ipsum purus, bibendum vitae tincidunt eu, luctus eget nunc. Vivamus eget metus dolor. Proin fringilla scelerisque ex in ullamcorper. Nunc sed eleifend risus. Mauris vel finibus nibh.</p>
+			</div>
+			
 			<div class='photo-grid'>
 				
 				{% for photo in site.data.photos %}<div class='photo-tile'><a href='{{ photo.url }}' style='background-image: url("/static/photos/{{ photo.filename }}")' target='_blank'></a></div>{% endfor %}
 				
 			</div>
-
+			
+			<div class='text-xs-right'>
+				<a class='btn btn-primary' href='https://www.facebook.com/shanereustle/media_set?set=a.822372551150720.1073741833.100001339471339&type=3'>View All Photos</a>
+			</div>
+			
+			<div class='text-xs-center'>
+				<a href='http://facebook.com/shanereustle'>Facebook</a> &minus;
+				<a href='http://instagram.com/sreustle'>Instagram</a> &minus;
+				<a href='http://twitter.com/reustle'>Twitter</a> &minus;
+				<a href='mailto:me@shanereustle.com'>Email</a>
+			</div>
+			
 		</div>
 		
 		<script src='/static/lib/jquery/jquery-1.11.1.min.js'></script>
