@@ -1,8 +1,5 @@
 ## reustle.org
-
-* Add favicon
-* Fix footer buttons
-* FB Embed modal on click ?
+My simple personal website
 
 ### Running Locally
 ``` bundle exec jekyll serve ```
