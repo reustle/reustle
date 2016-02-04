@@ -35,13 +35,13 @@
 			
 			<div class='photo-grid'>
 				
-				{% for photo in site.data.photos %}<div class='photo-tile'><a href='{{ site.fb }}{{ photo.url }}' style='background-image: url("/static/photos/{{ photo.filename }}")' target='_blank'></a></div>{% endfor %}
+				{% for photo in site.data.photos %}<div class='photo-tile'><a href='https://facebook.com/{{ photo.url }}' style='background-image: url("/static/photos/{{ photo.filename }}")' target='_blank'></a></div>{% endfor %}
 				
 			</div>
 			
 			<div class='actions'>
 				<div class='pull-sm-right'>
-					<a class='btn btn-secondary' href='{{ site.fb }}shanereustle/media_set?set=a.822372551150720.1073741833.100001339471339' target='_blank'>More Photos</a>
+					<a class='btn btn-secondary' href='https://facebook.com/shanereustle/media_set?set=a.822372551150720.1073741833.100001339471339' target='_blank'>More Photos</a>
 				</div>
 				
 				<a class='btn btn-primary' href='http://facebook.com/shanereustle' target='_blank'>Facebook</a>
