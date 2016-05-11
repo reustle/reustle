@@ -74,14 +74,11 @@ body {
 }
 
 .actions {
+	text-align: justify;
 	
-	@media (max-width: 450px){
-		padding: 0px 15px;
-		
-		.btn {
-			width: 100%;
-			margin-bottom: 10px;
-		}
+	@media (max-width: $breakpoint - 1){
+		padding-top: 15px;
+		margin: 0px 15px;
 	}
 	
 }
