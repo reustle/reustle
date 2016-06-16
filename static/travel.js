@@ -7,10 +7,10 @@ var tripsToFeatures = function(trips){
     var cleanTrips = [];
     trips.forEach(function(trip){
         cleanTrips.push({
-            type: "Feature",
+            type: 'Feature',
             properties: {},
             geometry: {
-                type: "LineString",
+                type: 'LineString',
                 coordinates: trip.coords
             }
         });
@@ -32,7 +32,7 @@ var map = new mapboxgl.Map({
 
 var tripsSrc = new mapboxgl.GeoJSONSource({
     data: {
-        type: "FeatureCollection",
+        type: 'FeatureCollection',
         features: tripsToFeatures(rawTrips)
     }
 });
@@ -41,16 +41,16 @@ var tripsSrc = new mapboxgl.GeoJSONSource({
 map.on('load', function(){
     map.addSource('trips', tripsSrc);
     map.addLayer({
-        "id": "route",
-        "type": "line",
-        "source": "trips",
-        "layout": {
-            "line-join": "round",
-            "line-cap": "round"
+        id: 'route',
+        type: 'line',
+        source: 'trips',
+        layout: {
+            'line-join': 'round',
+            'line-cap': 'round'
         },
-        "paint": {
-            "line-color": "#888",
-            "line-width": 8
+        paint: {
+            'line-color': '#FF974D',
+            'line-width': 7
         }
     });
 });
