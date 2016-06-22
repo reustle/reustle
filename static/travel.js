@@ -24,8 +24,8 @@ var tripsToFeatures = function(trips){
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v9',
-    zoom: 7,
-    center: {lng: 114.7960506809955, lat: -8.35659600445048}
+    zoom: 1.3,
+    center: {lng: 0, lat: 31.3}
 });
 
 // Set up lines
@@ -49,7 +49,7 @@ map.on('load', function(){
             'line-cap': 'round'
         },
         paint: {
-            'line-color': '#FF974D',
+            'line-color': '#4EADE4',
             'line-width': 7
         }
     });

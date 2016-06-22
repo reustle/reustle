@@ -1,13 +1,48 @@
-var rawTrips = [{
+var UBUD = [115.259199, -8.505599],
+DENPASAR = [115.212629, -8.670458],
+JAKARTA = [106.815026, -6.137510],
+BATAM = [104.030454, 1.045626],
+SINGAPORE = [103.819836, 1.352083],
+HAT_YAI = [100.474688, 7.008647],
+KUALA_LUMPUR = [101.686855, 3.139003],
+BANGKOK = [100.501765, 13.756331],
+THAI_CAMBODIA_BORDER = [102.550120, 13.661724],
+SIEM_REAP = [103.844813, 13.367097],
+SAIGON = [106.629664, 10.823099],
+NA_TRANG = [109.196749, 12.238791],
+DA_NANG = [108.202167, 16.054407],
+HANOI = [105.834160, 21.027764],
+
+TOKYO = [139.691706, 35.689487],
+OSAKA = [135.502165, 34.693738],
+FUKUOKA = [130.401716, 33.590355],
+BUSAN = [129.075642, 35.179554],
+SEOUL = [126.977969, 37.566535],
+
+BERGEN = [5.322054, 60.391263],
+OSLO = [10.752245, 59.913869],
+MORS = [8.728147, 56.818891],
+AARHUS = [10.203921, 56.162939],
+COPENHAGEN = [12.568337, 55.676097],
+BERLIN = [13.404954, 52.520007],
+PRAGUE = [14.437800, 50.075538],
+BRATISLAVA = [17.107748, 48.148596],
+VIENNA = [16.373819, 48.208174];
+
+
+var rawTrips = [
+
+// Main Route
+{
     mode: 'taxi',
     coords: [
-        [115.259199, -8.505599], // ubud
-        [115.212629, -8.670458] // denpasar
+        UBUD,
+        DENPASAR
     ]
 },{
     mode: 'bus',
     coords: [
-        [115.212629, -8.670458], // denpasar
+        DENPASAR,
         [114.438009, -8.160831] // west bali port
     ]
 },{
@@ -27,16 +62,101 @@ var rawTrips = [{
     coords: [
         [114.340615, -8.222973], // bangawangi train station
         [113.216048, -7.742685], // probolinggo train station
-        [106.815026, -6.137510] // jakarta train station
+        JAKARTA // train station
     ]
-}];
+},{
+    mode: 'motorbike taxi', 
+    coords: [
+        JAKARTA, // jakarta train station
+        JAKARTA // jakarta port
+    ]
+},{
+    mode: 'ferry', 
+    coords: [
+        JAKARTA, // jakarta port
+        BATAM, // batam port
+        SINGAPORE
+    ]
+},{
+    mode: 'train',
+    coords: [
+        SINGAPORE,
+        KUALA_LUMPUR,
+        HAT_YAI,
+        BANGKOK,
+        THAI_CAMBODIA_BORDER
+    ]
+},{
+    mode: 'bus',
+    coords: [
+        THAI_CAMBODIA_BORDER,
+        SAIGON
+    ]
+},{
+    mode: 'train',
+    coords: [
+        SAIGON,
+        NA_TRANG,
+        DA_NANG,
+        HANOI
+    ]
+},{
+    mode: 'train',
+    coords: [
+        TOKYO,
+        OSAKA,
+        FUKUOKA
+    ]
+},{
+    mode: 'ferry',
+    coords: [
+        FUKUOKA,
+        BUSAN
+    ]
+},{
+    mode: 'train',
+    coords: [
+        BUSAN,
+        SEOUL
+    ]
+},
+
+// EUROPE
+
+{
+    mode: 'train',
+    coords: [
+        BERGEN,
+        OSLO
+    ]
+},{
+    mode: 'ferry',
+    coords: [
+        OSLO,
+        MORS
+    ]
+},{
+    mode: 'train',
+    coords: [
+        MORS,
+        AARHUS,
+        COPENHAGEN,
+        BERLIN,
+        PRAGUE,
+        BRATISLAVA,
+        VIENNA
+    ]
+}
+
+// Branches
+
+];
 
 var unused = [
-{"mode": "Boat", "from": "Jakarta", "to": "Singapore"},
-{"mode": "Train", "from": "Singapore -> Kuala Lumpur -> Surat Thani -> Bangkok -> Tak -> Chiang Mai"},
+{"mode": "Train", "from": "Bangkok -> Tak -> Chiang Mai"},
 {"mode": "Bus", "from": "Tak", "to": "Mae Sot"},
 {"mode": "Pickup", "from": "Mae Sot", "to": "Tak Park"},
-{"mode": "Motorcycle", "from": "Mae Sot", "to": "Myawaddy"},
+{"mode": "Motorcycle taxi", "from": "Mae Sot", "to": "Myawaddy"},
 {"mode": "Shared Taxi", "from": "Myawaddy", "to": "Mawlamyine"},
 {"mode": "Train", "from": "Mawlamyine -> Yangon -> Thazi -> Inle Lake"},
 {"mode": "Bus", "from": "Inle Lake -> Mandalay"},
