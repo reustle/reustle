@@ -28,6 +28,11 @@ var map = new mapboxgl.Map({
     center: {lng: -11.74, lat: 24.08}
 });
 
+// disable map rotation using right click + drag
+map.dragRotate.disable();
+// disable map rotation using touch rotation gesture
+map.touchZoomRotate.disableRotation();
+
 // Set up lines
 
 var tripsSrc = new mapboxgl.GeoJSONSource({
