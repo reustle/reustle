@@ -32,6 +32,7 @@ body {
 }
 
 .photo-grid {
+    padding-top: 10px;
 	
 	@media (min-width: $breakpoint){
 		.photo-tile:nth-child(3n+3) {  
