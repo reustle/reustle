@@ -1,86 +1,71 @@
 [{
-	"note": "san-martino",
 	"filename": "san-martino.jpg",
 	"url": "photo.php?fbid=1047732251948081&set=a.822372551150720.1073741833.100001339471339&type=3&theater"
 },{
-	"note": "venice",
 	"filename": "venice.jpg",
 	"url": "photo.php?fbid=1033667450021228&set=a.822372551150720.1073741833.100001339471339&type=3&theater"
 },{
-	"note": "austria",
 	"filename": "austria.jpg",
 	"url": "photo.php?fbid=1026569350731038&set=a.822372551150720.1073741833.100001339471339&type=3&theater"
 },{
-	"note": "goodbye asia",
-	"filename": "13402386_286462391700618_475676998_n.jpg",
+
+	"filename": "bye-asia.jpg",
 	"url": "photo.php?fbid=1013934368661203&set=a.822372551150720.1073741833.100001339471339&type=3&theater"
 },{
-	"note": "tokyo window",
-	"filename": "13269512_1806117799616943_524337471_n.jpg",
+	"filename": "tokyo-view.jpg",
 	"url": "photo.php?fbid=1009050765816230&set=a.822372551150720.1073741833.100001339471339&type=3&theater"
 },{
-	"note": "vietnam train",
-	"filename": "12917934_218934958474813_1654313796_n.jpg",
+	"filename": "vietnam-train.jpg",
 	"url": "photo.php?fbid=987180608003246&set=a.822372551150720.1073741833.100001339471339&type=3&theater"
 },{
-	"note": "hong kong cows",
-	"filename": "12547605_1678182829096430_2023947654_n.jpg",
+
+	"filename": "hk-beach.jpg",
 	"url": "photo.php?fbid=939004296154211&set=a.822372551150720.1073741833.100001339471339&type=3&theater"
 },{
-	"note" : "laos outlook",
-	"filename": "12545255_154920564880170_788199466_n.jpg",
+	"filename": "laos-view.jpg",
 	"url": "photo.php?fbid=933207946733846&set=a.822372551150720.1073741833.100001339471339&type=3&theater"
 },{
-	"note" : "airplane",
-	"filename": "12568972_956403201061701_873446273_n.jpg",
+	"filename": "bkk-plane.jpg",
 	"url": "photo.php?fbid=932290126825628&set=a.822372551150720.1073741833.100001339471339&type=3&theater"
 },{
-	"note" : "laos cows",
-	"filename": "12277645_916774591709927_191261006_n.jpg",
+
+	"filename": "laos-cows.jpg",
 	"url": "photo.php?fbid=914682215253086&set=a.822372551150720.1073741833.100001339471339&type=3&theater"
 },{
-	"notes" : "laos boats",
-	"filename": "12277004_996057573792313_2097599553_n.jpg",
+	"filename": "laos-river.jpg",
 	"url": "photo.php?fbid=914296495291658&set=a.822372551150720.1073741833.100001339471339&type=3&theater"
 },{
-	"notes" : "bali waterfall",
-	"filename": "11875309_1695412720694853_1870434757_n.jpg",
+	"filename": "bali-waterfall.jpg",
 	"url": "photo.php?fbid=884216428299665&set=a.822372551150720.1073741833.100001339471339&type=3&theater"
 },{
-	"notes" : "ijen 4/4",
-	"filename": "11931061_463045707198873_543559614_n.jpg",
+
+	"filename": "ijen.jpg",
 	"url": "photo.php?fbid=882224778498830&set=a.822372551150720.1073741833.100001339471339&type=3&theater"
 },{
-	"notes" : "tokyo",
-	"filename": "11849284_867990476619765_1460303497_n.jpg",
+	"filename": "tokyo-night.jpg",
 	"url": "photo.php?fbid=866043963450245&set=a.822372551150720.1073741833.100001339471339&type=3&theater"
 },{
-	"notes" : "lod cave",
-	"filename": "11363651_952981011421105_1757762240_n.jpg",
+	"filename": "pai-cave.jpg",
 	"url": "photo.php?fbid=857957107592264&set=a.822372551150720.1073741833.100001339471339&type=3&theater"
 },{
-	"notes" : "thai monkey",
-	"filename": "11336202_1688637581367759_1797719699_n.jpg",
+
+	"filename": "th-monkey.jpg",
 	"url": "photo.php?fbid=857683474286294&set=a.822372551150720.1073741833.100001339471339&type=3&theater"
 },{
-	"notes" : "singapore garden",
-	"filename": "11264854_600111363424536_1579362914_n.jpg",
+	"filename": "singapore.jpg",
 	"url": "photo.php?fbid=856963311024977&set=a.822372551150720.1073741833.100001339471339&type=3&theater"
 },{
-	"note": "myanmar train",
-	"filename": "11327893_1622439061338093_1765769904_n.jpg",
+	"filename": "burma-train-aussie.jpg",
 	"url": "photo.php?fbid=838127016241940&set=a.822372551150720.1073741833.100001339471339&type=3&theater"
 },{
-	"note": "japan flowers",
-	"filename": "11374383_1582030885397715_619320257_n.jpg",
+
+	"filename": "fuji.jpg",
 	"url": "photo.php?fbid=830576073663701&set=a.822372551150720.1073741833.100001339471339&type=3&theater"
 },{
-	"note": "inle sunrise",
-	"filename": "11282590_665468943587418_1001999474_n.jpg",
+	"filename": "inle-lake.jpg",
 	"url": "photo.php?fbid=826596424061666&set=a.822372551150720.1073741833.100001339471339&type=3&theater"
 },{
-	"note": "myanmar train tracks guy",
-	"filename": "11249801_838133646280360_1374982741_n.jpg",
+	"filename": "burma-train.jpg",
 	"url": "photo.php?fbid=823644647690177&set=a.822372551150720.1073741833.100001339471339&type=3&theater"
 }]
 
