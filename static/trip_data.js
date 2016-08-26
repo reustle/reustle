@@ -35,8 +35,23 @@ BRATISLAVA = [17.107748, 48.148596],
 VIENNA = [16.373819, 48.208174],
 SALZBURG = [13.055010, 47.809490],
 VENICE = [12.315515, 45.440847],
-NAPLES = [14.268124, 40.851775];
+NAPLES = [14.268124, 40.851775],
+BARI = [16.8718714, 41.1171432],
+ROME = [12.49636550, 41.90278349],
+MILAN = [9.1859243, 45.4654219],
+ZURICH = [8.541694, 47.3768866],
+BERN = [7.4474467, 46.9479739],
+GENEVA = [6.14315769, 46.2043907],
+MARSEILLE = [5.369779, 43.296482],
+BARCELONA = [2.1734034, 41.3850638],
 
+EDINBURGH = [-3.188266, 55.953252],
+LIVERPOOL = [-2.9915726, 53.4083714],
+BRISTOL = [-2.587909, 51.454513],
+LONDON = [-0.12775829, 51.5073509],
+BRUSSELS = [4.3517103, 50.8503396],
+ROTTERDAM = [4.4777325, 51.9244201],
+AMSTERDAM = [4.8951678, 52.3702157];
 
 var rawTrips = [
 
@@ -156,7 +171,15 @@ var rawTrips = [
         SALZBURG,
         // BUS 
         VENICE,
-        NAPLES
+        NAPLES,
+        BARI,
+        ROME,
+        MILAN,
+        ZURICH,
+        BERN,
+        GENEVA,
+        MARSEILLE,
+        BARCELONA
     ]
 
 // Branches
@@ -173,6 +196,17 @@ var rawTrips = [
         YANGON,
         MANDALAY,
         BAGAN
+    ]
+},{
+    mode: 'train',
+    coords: [
+        EDINBURGH,
+        LIVERPOOL,
+        BRISTOL,
+        LONDON,
+        BRUSSELS,
+        ROTTERDAM,
+        AMSTERDAM
     ]
 }
 
