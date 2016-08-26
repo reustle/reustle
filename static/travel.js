@@ -25,7 +25,10 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v9',
     zoom: 1,
-    center: {lng: -11.74, lat: 24.08}
+    center: {
+        lng: 9.346689392360958,
+        lat: 25.680995922791197
+    }
 });
 
 // disable map rotation using right click + drag

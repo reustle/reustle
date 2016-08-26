@@ -51,7 +51,19 @@ BRISTOL = [-2.587909, 51.454513],
 LONDON = [-0.12775829, 51.5073509],
 BRUSSELS = [4.3517103, 50.8503396],
 ROTTERDAM = [4.4777325, 51.9244201],
-AMSTERDAM = [4.8951678, 52.3702157];
+AMSTERDAM = [4.8951678, 52.3702157],
+
+KEY_WEST= [-81.7799870, 24.5550593],
+RALEIGH = [-78.6381787, 35.7795897],
+PHILADELPHIA = [-75.1652215, 39.9525839],
+CHICAGO = [-87.6297981, 41.8781136],
+LITTLE_ROCK = [-92.2895947, 34.7464809],
+AUSTIN = [-97.7430607, 30.267153],
+
+MOOSEHEAD = [-69.6506172, 45.6550489],
+BOSTON = [-71.0588801, 42.3600825],
+NEW_YORK = [-74.0059413, 40.7127837],
+OTTAWA = [-75.69719310, 45.42152960];
 
 var rawTrips = [
 
@@ -207,6 +219,25 @@ var rawTrips = [
         BRUSSELS,
         ROTTERDAM,
         AMSTERDAM
+    ]
+},{
+    mode: 'trainbuscar',
+    coords: [
+        KEY_WEST,
+        RALEIGH,
+        PHILADELPHIA,
+        CHICAGO,
+        LITTLE_ROCK,
+        AUSTIN
+    ]
+},{
+    mode: 'trainbuscar',
+    coords: [
+        MOOSEHEAD,
+        BOSTON,
+        NEW_YORK,
+        PHILADELPHIA,
+        OTTAWA
     ]
 }
 
