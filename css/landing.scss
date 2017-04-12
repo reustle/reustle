@@ -28,6 +28,17 @@ body {
 		padding-top: 15px;
 		margin: 0px 15px;
 	}
+    
+    .avatar-container {
+        text-align: center;
+    
+        img {
+            margin-top: 6px;
+            width: 168px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+    }
 	
 }
 
