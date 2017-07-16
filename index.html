@@ -1,79 +1,47 @@
 ---
+layout: base
 ---
-<html>
-	<head>
-		<meta charset='utf-8'>
-		<meta http-equiv='X-UA-Compatible' content='IE=edge'>
-		<meta name='viewport' content='width=device-width, initial-scale=1, minimal-ui'>
-		
-		<meta name='author' content='Shane Reustle'>
-		<meta name='description' content='Unsatisfied with office life in New York City, I set out on a mission to slowly make my way around the world by land and sea.'>
-		
-		<title>Shane Reustle · Adventurer & Entrepreneur</title>
-		
-		<link rel='shortcut icon' sizes='16x16' href='/static/favicon.ico' type='image/x-icon'>
-		<link href='/static/lib/bootstrap/css/bootstrap.min.css' rel='stylesheet'>
-		<link href='/css/landing.css' rel='stylesheet'>
-	</head>
-	<body>
-		
-		<div class='body-container'>
-			
-			<div class='bio'>
-               <div class='row'>
-                    
-                    <div class='col-xs-12 col-md-3 avatar-container'>
-                        <img src='/static/shane-reustle.jpg'/>
-                    </div>
-                    
-                    <div class='col-xs-12 col-md-9'>
-                        <p class='lead'>
-                            I'm <strong>Shane Reustle</strong>, an avid traveler and software engineer.
-                            Unsatisfied with sedentary office life in New York City, I set out on a mission to slowly make my way around the world without flying.
-                            So far I've explored over <a href='https://nomadlist.com/reustle' target='_blank'>27 countries</a> by bus, train, boat, and motorcycle.
-                            Meanwhile, I've been busy building a <a href='http://crath.com'>fully remote software company</a> which has worked with a diverse set of clients to produce some exciting new products.
-                        </p>
-                    </div>
-                    
+
+    <div class='body-container'>
+        
+        <div class='bio'>
+           <div class='row'>
+                
+                <div class='col-xs-12 col-md-3 avatar-container'>
+                    <img src='/static/shane-reustle.jpg'/>
                 </div>
                 
-				<p class='lead'>
-					I've quickly come to realize that life is best spent focusing on your passions and building a career around them, not the other way around.
-					I hope you enjoy <a href='https://www.facebook.com/shanereustle'>my photos</a> as a narrow glimpse into my recent adventures, and that they may inspire you to pursue your goals.
-					If you have any questions I might be able to answer, feel free to <a href='mailto:shane@reustle.org'>email me</a> or <a href='http://twitter.com/reustle'>tweet at me</a>.
-				</p>
+                <div class='col-xs-12 col-md-9'>
+                    <p class='lead'>
+                        I'm <strong>Shane Reustle</strong>, an avid traveler and software engineer.
+                        Unsatisfied with sedentary office life in New York City, I set out on a mission to slowly make my way around the world without flying.
+                        So far I've explored over <a href='https://nomadlist.com/reustle' target='_blank'>27 countries</a> by bus, train, boat, and motorcycle.
+                        Meanwhile, I've been busy building a <a href='http://crath.com'>fully remote software company</a> which has worked with a diverse set of clients to produce some exciting new products.
+                    </p>
+                </div>
                 
-			</div>
-			
-			<div class='photo-grid'>
-				
-				{% for photo in site.data.photos %}<div class='photo-tile'><a href='https://facebook.com/{{ photo.url }}' style='background-image: url("/static/photos/{{ photo.filename }}")' target='_blank'></a></div>{% endfor %}
-				
-			</div>
-			
-            <div class='actions'>
-                <p class='lead'>
-                    For more adventures, you can follow me on <a href='https://facebook.com/shanereustle'>Facebook</a>, <a href='https://instagram.com/sreustle'>Instagram</a>, and <a href='https://twitter.com/reustle'>Twitter</a>.
-                    <!-- You can also sign up for my <a href='https://tinyletter.com/reustle'>annual(ish) newsletter</a> which covers my adventures in greater detail. -->
-                </p>
             </div>
-			
-		</div>
-		
-		<script src='/static/lib/jquery/jquery-1.11.1.min.js'></script>
-		<script src='/static/lib/tether.min.js'></script>
-		<script src='/static/lib/bootstrap/js/bootstrap.min.js'></script>
-		
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-			
-			ga('create', 'UA-2580539-25', 'auto');
-			ga('send', 'pageview');
-		</script>
-		
-	</body>
-</html>
+            
+            <p class='lead'>
+                I've quickly come to realize that life is best spent focusing on your passions and building a career around them, not the other way around.
+                I hope you enjoy <a href='https://www.facebook.com/shanereustle'>my photos</a> as a narrow glimpse into my recent adventures, and that they may inspire you to pursue your goals.
+                If you have any questions I might be able to answer, feel free to <a href='mailto:shane@reustle.org'>email me</a> or <a href='http://twitter.com/reustle'>tweet at me</a>.
+            </p>
+            
+        </div>
+        
+        <div class='photo-grid'>
+            
+            {% for photo in site.data.photos %}<div class='photo-tile'><a href='https://facebook.com/{{ photo.url }}' style='background-image: url("/static/photos/{{ photo.filename }}")' target='_blank'></a></div>{% endfor %}
+            
+        </div>
+        
+        <div class='actions'>
+            <p class='lead'>
+                For more adventures, you can follow me on <a href='https://facebook.com/shanereustle'>Facebook</a>, <a href='https://instagram.com/sreustle'>Instagram</a>, and <a href='https://twitter.com/reustle'>Twitter</a>.
+                <!-- You can also sign up for my <a href='https://tinyletter.com/reustle'>annual(ish) newsletter</a> which covers my adventures in greater detail. -->
+            </p>
+        </div>
+        
+    </div>
 
