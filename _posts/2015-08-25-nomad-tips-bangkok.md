@@ -4,7 +4,9 @@ permalink: nomad-tips-bangkok-thailand.html
 layout: post
 ---
 
-<img src='/static/images/articles/sathorn-bkk.jpg' class='img-responsive img-rounded' alt='Sathorn Unique Tower, Bangkok' />
+<div class='text-center'>
+    <img src='/static/resources/sathorn-bkk.jpg' class='img-rounded' alt='Sathorn Unique Tower, Bangkok' />
+</div>
 
 Here are some quick and dirty tips I've picked up while living in the city for a few months. Bangkok is a great city, and you'll fall in love with the countless night markets and delicious (dirt cheap) street food.
 

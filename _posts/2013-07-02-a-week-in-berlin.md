@@ -12,5 +12,7 @@ Over my time in the city, I spent a total of $191. Food was relatively cheap and
 
 <p>Since this is the first stop on the trip and I only plan 1-3 days in advance, I didn't get much work on my personal projects done. That will change as I get comfortable with hunting couches and cafes. Next up, Copenhagen.</p>
 
-<a href='http://www.flickr.com/photos/reustle/9343669826/' target='_blank'><img class='img-responsive img-rounded' alt='A cafe in Berlin' src='/static/images/articles/berlin.jpg'/></a>
+<div class='text-center'>
+<a href='http://www.flickr.com/photos/reustle/9343669826/' target='_blank'><img class='img-rounded' alt='A cafe in Berlin' src='/static/resources/berlin.jpg'/></a>
+</div>
 

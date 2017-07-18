@@ -51,16 +51,21 @@
         <section class='container'>
             
             <div class='row'>
-                <div class='content col-sm-10 col-sm-offset-1'>
-                    
+                <div class='col-sm-5 col-sm-offset-1'>
                     <ol class='breadcrumb'>
                         <li><a href='/'>Top</a></li>
                         <li><a href='/articles'>Articles</a></li>
                         <li class='active'>{{ page.title }}</li>
                     </ol>
-                    
-                    
-                    <h1>{{ page.title }}</h1>
+                </div>
+                <div class='date col-sm-5 text-right'>
+                    {{ page.date | date: '%e %b %Y' }}
+                </div>
+            </div>
+            
+            <div class='row'>
+                <div class='content col-sm-10 col-sm-offset-1'>
+                    <h1 class='text-center'>{{ page.title }}</h1>
                     {{ content }}
                 </div>
             </div>

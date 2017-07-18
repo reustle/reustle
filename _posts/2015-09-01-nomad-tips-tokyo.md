@@ -6,7 +6,9 @@ draft: true
 related: http://www.thrillingheroics.com/tokyo-japan
 ---
 
-<img src='/static/images/articles/sathorn-bkk.jpg' class='img-responsive img-rounded' alt='Sathorn Unique Tower, Bangkok' />
+<div class='text-center'
+    <img src='/static/images/articles/sathorn-bkk.jpg' class='img-rounded' alt='Sathorn Unique Tower, Bangkok' />
+</div>
 
 # Connectivity
 * Head to any Bic Camera location and pick up their [Japan Travel SIM](http://www.biccamera.com.e.lj.hp.transer.com/bc/disp/CSfDispListPage_001.jsp?dispNo=&q=travel+sim&x=0&y=0). You can choose between either 1 month (1 gb) for 2,500 yen or 3 months (2 gb) for 3,800 yen

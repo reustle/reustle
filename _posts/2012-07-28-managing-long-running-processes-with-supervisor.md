@@ -35,8 +35,8 @@ _Create ~/test.py containing:_
 {% highlight python %}
 import time
 while True:
-	print(time.ctime())
-	time.sleep(1)
+    print(time.ctime())
+    time.sleep(1)
 {% endhighlight %}
 
 When creating the conf file, be sure to replace **/home/ubuntu** both times with the path to your home directory (~ isn't allowed). If you run test.py manually you'll see it prints out the time once per second.
@@ -46,28 +46,43 @@ When creating the conf file, be sure to replace **/home/ubuntu** both times with
 
 SupervisorCTL is the tool you will use to manage everything in Supervisor. Start by running **sudo supervisorctl** and then typing **reread**. The reread command goes through the conf.d directory and loads any new program conf files. Once you see the new test_python program available, you can use the add command to load and start it (**add test_python**). The **status** command shows you all running processes, their PID and how long they've been running. Here is a short list of my commonly used supervisorctl commands and what they do.
 
-<dl class='dl-horizontal'>
-	<dt>reread</dt>
-	<dd>Reload all program conf files from the conf.d directory.</dd>
-	
-	<dt>add [program_name]</dt>
-	<dd>Add a newly created conf file to Supervisor and start the process.</dd>
-	
-	<dt>status</dt>
-	<dd>Check the status of all programs currently managed by Supervisor.</dd>
-	
-	<dt>start [program_name]</dt>
-	<dd>Start the given program. Used often with one-time scripts.</dd>
-	
-	<dt>restart [program_name]</dt>
-	<dd>Restart the given program.</dd>
-	
-	<dt>tail -f [program_name]</dt>
-	<dd>Watch the log file in real-time (same as UNIX tail -f [filename]).</dd>
-	
-	<dt>help</dt>
-	<dd>List all available commands.</dd>
-</dl>
+<table class='table table-striped'>
+    <tr>
+        <td>reread</td>
+        <td>Reload all program conf files from the conf.d directory.</td>
+    </tr>
+    
+    <tr>
+        <td>add [program_name]</td>
+        <td>Add a newly created conf file to Supervisor and start the process.</td>
+    </tr>
+    
+    <tr>
+        <td>status</td>
+        <td>Check the status of all programs currently managed by Supervisor.</td>
+    </tr>
+    
+    <tr>
+        <td>start [program_name]</td>
+        <td>Start the given program. Used often with one-time scripts.</td>
+    </tr>
+    
+    <tr>
+        <td>restart [program_name]</td>
+        <td>Restart the given program.</td>
+    </tr>
+    
+    <tr>
+        <td>tail -f [program_name]</td>
+        <td>Watch the log file in real-time (same as UNIX tail -f [filename]).</td>
+    </tr>
+    
+    <tr>
+        <td>help</td>
+        <td>List all available commands.</td>
+    </tr>
+</table>
+
 
 Exit supervisorctl and check your log file (~/test_python_output.txt) to see that it is still running. If it isn't, you may have missed a step.
 
@@ -76,34 +91,52 @@ Exit supervisorctl and check your log file (~/test_python_output.txt) to see tha
 
 There is a wide array of options you can use while setting up your program configuration file. I've listed my favorite options below. For a full list of commands and their parameters, check out [the settings documentation](http://supervisord.org/configuration.html#program-x-section-settings)
 
-<dl class='dl-horizontal'>
-	<dt>command</dt>
-	<dd>The command to run.</dd>
-	
-	<dt>directory</dt>
-	<dd>The directory to run the command in.</dd>
-	
-	<dt>numprocs</dt>
-	<dd>Automatically start N instances of that process.</dd>
-	
-	<dt>autostart</dt>
-	<dd>A boolean which tells whether to run automatically or not when Supervisor starts.</dd>
-	
-	<dt>autorestart</dt>
-	<dd>Automatically restart a process that dies, under specific conditions (see docs).</dd>
-	
-	<dt>stdout_logfile</dt>
-	<dd>Where to log the output of your program.</dd>
-	
-	<dt>redirect_stderr</dt>
-	<dd>Tell supervisor whether to include stderr in your standard output file.</dd>
-	
-	<dt>stdout_logfile_maxbytes</dt>
-	<dd>The size a log file is allowed to grow to until it is auto rotated.</dd>
-	
-	<dt>stdout_logfile_backups</dt>
-	<dd>The number of rotated log files to keep.</dd>
-</dl>
+<table class='table table-striped'>
+    <tr>
+        <td>command</td>
+        <td>The command to run.</td>
+    </tr>
+    
+    <tr>
+        <td>directory</td>
+        <td>The directory to run the command in.</td>
+    </tr>
+    
+    <tr>
+        <td>numprocs</td>
+        <td>Automatically start N instances of that process.</td>
+    </tr>
+    
+    <tr>
+        <td>autostart</td>
+        <td>A boolean which tells whether to run automatically or not when Supervisor starts.</td>
+    </tr>
+    
+    <tr>
+        <td>autorestart</td>
+        <td>Automatically restart a process that dies, under specific conditions (see docs).</td>
+    </tr>
+    
+    <tr>
+        <td>stdout_logfile</td>
+        <td>Where to log the output of your program.</td>
+    </tr>
+    
+    <tr>
+        <td>redirect_stderr</td>
+        <td>Tell supervisor whether to include stderr in your standard output file.</td>
+    </tr>
+    
+    <tr>
+        <td>stdout_logfile_maxbytes</td>
+        <td>The size a log file is allowed to grow to until it is auto rotated.</td>
+    </tr>
+    
+    <tr>
+        <td>stdout_logfile_backups</td>
+        <td>The number of rotated log files to keep.</td>
+    </tr>
+</table>
 
 
 ## Web Interface
