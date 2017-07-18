@@ -1,7 +1,85 @@
----
-layout: base
----
-<h1>{{ page.title }}</h1>
-
-{{ content }}
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1, minimal-ui'>
+        
+        <meta name='author' content='Shane Reustle'>
+        <meta name='description' content='Unsatisfied with office life in New York City, I set out on a mission to slowly make my way around the world by land and sea.'>
+        
+        <title>{{ page.title }} · Shane Reustle</title>
+        
+        <!-- Google Font
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet'>
+        -->
+        
+        <link rel='shortcut icon' sizes='16x16' href='/static/favicon.ico' type='image/x-icon'>
+        <link href='/static/lib/bootstrap3/bootstrap.min.css' rel='stylesheet'>
+        <link href='/css/base.css' rel='stylesheet'>
+    </head>
+    <body>
+        
+        <header class='container-fluid'>
+            
+            <div class='container'>
+                <div class='row'>
+                    <div class='col-sm-10 col-sm-offset-1'>
+                        <a class='flex' href='/'>
+                            <div class='avatar'>
+                                <img src='/static/shane-reustle.jpg'/>
+                            </div>
+                            
+                            <div class='text'>
+                                <h1>Shane Reustle</h1>
+                                <h2>Adventurer &amp; Entrepreneur</h2>
+                            </div>
+                            
+                            <div class='nav hide'>
+                                <ul>
+                                    <li>Foo</li>
+                                    <li>Foo</li>
+                                    <li>Foo</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <section class='container'>
+            
+            <div class='row'>
+                <div class='content col-sm-10 col-sm-offset-1'>
+                    
+                    <ol class='breadcrumb'>
+                        <li><a href='/'>Top</a></li>
+                        <li><a href='/articles'>Articles</a></li>
+                        <li class='active'>{{ page.title }}</li>
+                    </ol>
+                    
+                    
+                    <h1>{{ page.title }}</h1>
+                    {{ content }}
+                </div>
+            </div>
+            
+        </section>
+        
+        <script src='/static/lib/jquery/jquery-1.11.1.min.js'></script>
+        <script src='/static/lib/bootstrap3/bootstrap.min.js'></script>
+        
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            
+            ga('create', 'UA-2580539-25', 'auto');
+            ga('send', 'pageview');
+        </script>
+        
+    </body>
+</html>
 

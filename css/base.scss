@@ -1,0 +1,74 @@
+---
+---
+
+$offwhite: #fafafa;
+
+body {
+    background: $offwhite;
+    font-size: 20px;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+header {
+    background: #333;
+    color: $offwhite;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+    a.flex {
+        color: $offwhite;
+        display: flex;
+        
+        &:hover, &:focus,&:active {
+            text-decoration: none;
+        }
+    }
+    
+    .avatar {
+        margin-right: 25px;
+        img {
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid $offwhite;
+        }
+    }
+    
+    .text {
+        align-self: center;
+    }
+    
+    h1, h2 {
+        margin: 0px;
+        padding: 0px;
+    }
+    h1 {
+        font-size: 30px;
+        margin-bottom: 6px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
+
+section .content {
+    .breadcrumb {
+        background: transparent;
+        margin: 0px;
+        padding: 0px;
+        font-size: 15px;
+    }
+    
+    h1, h2 {
+        font-weight: 700;
+    }
+    h1 {
+        margin-bottom: 35px;
+    }
+    p {
+        margin: 35px 0px;
+        text-align: justify;
+    }
+}
+
