@@ -71,10 +71,25 @@ section {
         margin: 0px;
         padding: 0px;
         font-size: 15px;
+        
+        @media #{$MOBILE} {
+            li {
+                display: block;
+                &:before {
+                    padding: 0px;
+                    content: '';
+                }
+            }
+        }
     }
     .date {
         font-size: 15px;
         color: #777;
+        
+        @media #{$MOBILE} {
+            text-align: center;
+            margin-top: 20px;
+        }
     }
     
     .content {
