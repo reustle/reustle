@@ -1,6 +1,6 @@
 ---
-title: Nomad Tips&#58; Bangkok, Thailand
-permalink: nomad-tips-bangkok-thailand.html
+title: Travel Guide&#58; Bangkok, Thailand
+permalink: travel-guide-bangkok-thailand.html
 layout: post
 ---
 

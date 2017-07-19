@@ -100,13 +100,20 @@ section {
             margin-bottom: 35px;
             margin-top: 25px;
         }
+        h2 {
+            margin-top: 50px;
+            font-size: 26px;
+        }
         p {
-            margin: 35px 0px;
+            margin: 25px 0px;
             text-align: justify;
             
             @media #{$MOBILE} {
                 text-align: left;
             }
+        }
+        ul {
+            margin: 25px 0px;
         }
     }
 }
