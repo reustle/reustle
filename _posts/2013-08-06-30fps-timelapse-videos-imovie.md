@@ -1,6 +1,6 @@
 ---
 title: 30fps Timelapse Videos with iMovie
-permalink: 30fps-timelapse-videos-with-imovie.html
+permalink: 30fps-timelapse-videos-imovie.html
 layout: post
 ---
 
