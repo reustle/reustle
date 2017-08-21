@@ -8,10 +8,10 @@ var ORANGE = '#da870a';
 
 var COLORS = {
     'train': BLUE,
-    'bus': ORANGE,
-    'taxi': ORANGE,
-    'boat': GREEN,
-    'ferry': GREEN,
+    'bus': GREEN,
+    'taxi': GREEN,
+    'boat': ORANGE,
+    'ferry': ORANGE,
 };
 
 var tripsToFeatures = function(trips){
