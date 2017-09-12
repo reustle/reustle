@@ -42,7 +42,7 @@ var tripsToFeatures = function(trips){
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/dark-v9',
-    zoom: 1,
+    zoom: 1.5,
     //maxBounds: [ [-180, -85], [180, 85] ],
     center: {
         lng: 9.346689392360958,
@@ -74,7 +74,7 @@ map.on('load', function(){
             'line-cap': 'round'
         },
         paint: {
-            'line-width': 4,
+            'line-width': 3,
             'line-color': {
                 'type': 'identity',
                 'property': 'color'
