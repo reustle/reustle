@@ -18,5 +18,5 @@ Here are some misc Japan related resources around New York.
 * [Japan Society Events](https://www.japansociety.org/page/calendar)
 * [New York Nihongo Meetup Group](https://www.meetup.com/New-York-%E4%BC%9A%E8%A9%B1/)
 * [J-Kuru Japanese Language Meetup Group](https://www.meetup.com/j-kuru/events/)
-* [NY Japanese Language Meeutp Group)[https://www.meetup.com/japanese-19/events/]
+* [NY Japanese Language Meeutp Group](https://www.meetup.com/japanese-19/events/)
 
