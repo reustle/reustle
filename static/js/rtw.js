@@ -4,7 +4,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoicmV1c3RsZSIsImEiOiJESzd6YVRnIn0.Hh9AwQw1X0PR_
 
 // Utils
 
-let GREEN = '#35d835'
+let GREEN = '#94e86f'
 let BLUE = '#4eade4'
 let ORANGE = '#da870a'
 
