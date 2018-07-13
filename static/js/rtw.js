@@ -42,7 +42,9 @@ map.on('load', function(){
     // TODO Async
     $.getJSON("/static/rtwData.geojson", function(rtwData){
         rtwData.features.forEach(feature => {
-            feature.properties.color = COLORS[feature.properties.name.toLowerCase()]
+            let nameProp = feature.properties.name.toLowerCase().split(',')
+            let transportMode = nameProp[0]
+            feature.properties.color = COLORS[transportMode]
         })
         
         map.addLayer({
