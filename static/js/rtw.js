@@ -14,6 +14,7 @@ var COLORS = {
     'taxi': ORANGE,
     'car': ORANGE,
     'boat': GREEN,
+    'ferry': GREEN,
 };
 
 
