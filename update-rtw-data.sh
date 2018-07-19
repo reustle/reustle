@@ -1,7 +1,4 @@
-wget https://www.google.com/maps/d/u/0/kml?mid=1THN_zVHMNZr7v_AqyXFTm8O2uWF68wZS -O rtwData.kmz ;
-unzip rtwData.kmz ;
-rm rtwData.kmz ;
-mv doc.kml rtwData.kml ;
-k2g rtwData.kml static/ ;
-rm rtwData.kml ;
+wget https://gist.githubusercontent.com/reustle/6d27b7f01a98bffb76b150dc860460eb/raw/map.geojson -O static/rawRtwData.geojson ;
+jq -c . < static/rawRtwData.geojson > static/rtwData.geojson ;
+rm static/rawRtwData.geojson
 
