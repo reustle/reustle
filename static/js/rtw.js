@@ -23,6 +23,7 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/dark-v9',
     zoom: 1.5,
+    maxZoom: 6,
     //maxBounds: [ [-180, -85], [180, 85] ],
     center: {
         lng: 9.346689392360958,
@@ -58,7 +59,7 @@ map.on('load', function(){
             },
             
             paint: {
-                'line-width': 3,
+                'line-width': 2,
                 'line-color': {
                     'type': 'identity',
                     'property': 'color'
