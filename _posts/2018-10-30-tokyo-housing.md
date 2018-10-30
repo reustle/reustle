@@ -16,4 +16,5 @@ Finding apartments in Tokyo is painful (thanks, AirBnB). Hopefully this helps.
 ## Share Houses
 - [Social Apartment](https://www.social-apartment.com/builds)
 - [GG House](http://gghouse.co.jp/en/)
+- [Sakura House](https://www.sakura-house.com/en)
 
