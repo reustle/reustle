@@ -1,5 +1,5 @@
 ---
-title: Tokyo
+title: Tokyo Housing
 permalink: /tokyo-housing.html
 layout: post
 ---
@@ -14,6 +14,7 @@ Finding apartments in Tokyo is painful (thanks, AirBnB). Hopefully this helps.
 - [Oak House](https://www.oakhouse.jp/eng/house/apartment)
 
 ## Share Houses
+- [Tokyo Chapter](https://tokyochapter.com/sharehouse/)
 - [Social Apartment](https://www.social-apartment.com/builds)
 - [GG House](http://gghouse.co.jp/en/)
 - [Sakura House](https://www.sakura-house.com/en)
