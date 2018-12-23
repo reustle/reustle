@@ -1,6 +1,6 @@
 "use strict";
 
-mapboxgl.accessToken = 'pk.eyJ1IjoicmV1c3RsZSIsImEiOiJESzd6YVRnIn0.Hh9AwQw1X0PR_TOewZMMzA';
+mapboxgl.accessToken = 'pk.eyJ1IjoicmV1c3RsZSIsImEiOiJjamxzNnZ0dXYwYm10M2twbDI4OTBpanRtIn0.5wMezYrGtLcVb7EWUQshxA';
 
 // Utils
 
