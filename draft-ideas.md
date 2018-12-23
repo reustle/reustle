@@ -1,0 +1,19 @@
+- slack is bad, real time communication, always on, missing out, etc
+- chasing ghosts (action potential)
+  - you only go to new place once. never have the same vibe until much later if ever
+- Circle the world in 3 weeks by train
+- Lazyweb
+- Don't buy an iphone in japan
+- Tokyo Rooftops
+- Happiness is not forever/always, thats ok (check hudson post)
+- years without an alarm clock
+- dont submit resumes, talk to people and explain the value you can bring to their company. dont be a cog.
+- contact lists suck, why i built humans.io
+- i never grew up, always looking out window daydreaming
+- public trans in asia is great. trains in cities, busses, vans in thailand
+- i quit my job to travel the world, twice
+- why traveling alone is anything but lonely http://www.washingtonpost.com/blogs/wonkblog/wp/2015/05/02/why-you-should-really-start-doing-more-things-alone/
+- Traveler practice: Go to a nearby city, no car and stay In a hostel, etc. Sometimes you're not able to travel just yet (too young?) but want to get ready for taking off on a big trip, or just get some practice in. Jump to a nearby city that you've never been to before, and that you don't know anyone in and try to navigate by foot / public trans for a day or two.
+- Alcohol https://news.ycombinator.com/item?id=6214108
+- on being certain https://news.ycombinator.com/item?id=12879232
+
