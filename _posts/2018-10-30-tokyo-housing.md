@@ -12,10 +12,11 @@ Finding apartments in Tokyo is painful (thanks, AirBnB). Hopefully this helps.
 - [Tokyo Monthly](https://www.tokyo-monthly.jp/en/)
 - [Duplex CS](http://DuplexCS.jp)
 - [Oak House](https://www.oakhouse.jp/eng/house/apartment)
+- [Fontana](http://www.tokyocityapartments.net/)
+- [Oyo Life](https://www.oyolife.co.jp/)
 
 ## Share Houses
 - [Tokyo Chapter](https://tokyochapter.com/sharehouse/)
 - [Social Apartment](https://www.social-apartment.com/builds)
 - [GG House](http://gghouse.co.jp/en/)
 - [Sakura House](https://www.sakura-house.com/en)
-
