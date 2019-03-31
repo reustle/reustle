@@ -1,47 +1,100 @@
----
-layout: base
----
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+        
+        <meta name="author" content="Shane Reustle">
+        <meta name="description" content="I live in Tokyo and help teams build great software." />
+        
+        <link rel="shortcut icon" sizes="16x16" href="static/favicon.ico" type="image/x-icon">
 
-    <div class='body-container'>
+        <title>Shane Reustle</title>
         
-        <div class='bio'>
-           <div class='row'>
-                
-                <div class='col-xs-12 col-md-3 avatar-container'>
-                    <img src='/static/shane-reustle.jpg'/>
-                </div>
-                
-                <div class='col-xs-12 col-md-9'>
-                    <p class='lead'>
-                        I'm <strong>Shane Reustle</strong>, an avid traveler and software engineer.
-                        Unsatisfied with sedentary office life in New York City, I set out on a mission to slowly make my way around the world by land and sea.
-                        So far I've explored over <a href='http://reustle.org/rtw' target='_blank'>35 countries</a> by bus, train, boat, and motorcycle.
-                        Meanwhile, I've been busy building a <a href='https://reustle.co'>fully remote software company</a> which has worked with a diverse set of clients to produce some exciting new products.
-                    </p>
-                </div>
-                
-            </div>
-            
-            <p class='lead'>
-                I've quickly come to realize that life is best spent focusing on your passions and building a career around them, not the other way around.
-                I hope you enjoy <a href='https://www.facebook.com/reustle'>my photos</a> as a narrow glimpse into my recent adventures.
-                If you have any questions I might be able to answer, feel free to <a href='mailto:shane@reustle.org'>email me</a> or <a href='http://twitter.com/reustle'>tweet at me</a>.
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css" />
+        <style type="text/css">
+            body {
+                font-family: Ubuntu, Verdana, Geneva, Tahoma, sans-serif;
+                padding: 10px 25px;
+                line-height: 26px;
+                font-size: 17px;
+            }
+            header, section {
+                max-width: 600px;
+                margin: 0px auto 40px auto;
+            }
+            a {
+                color: #000;
+                text-decoration: none;
+            }
+            p {
+                padding-bottom: 10px;
+            }
+            img {
+                width: 100%;
+                border-radius: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <p>🌲 Hey, I'm <strong>Shane Reustle</strong>.</p>
+            <p>
+                I live in Tokyo and help teams <a href="https://reustle.co" target="_blank"><u>build great software</u></a>. You can find me in my spare time meditating on a motorcycle in the forest, practicing filmography, and strategizing on how to clean up the planet.
             </p>
-            
-        </div>
-        
-        <div class='photo-grid'>
-            
-            {% for photo in site.data.photos %}<div class='photo-tile'><a href='https://facebook.com/{{ photo.url }}' style='background-image: url("/static/photos/{{ photo.filename }}")' target='_blank'></a></div>{% endfor %}
-            
-        </div>
-        
-        <div class='actions'>
-            <p class='lead'>
-                For more adventures, you can follow me on <a href='https://facebook.com/shanereustle'>Facebook</a>, <a href='https://instagram.com/sreustle'>Instagram</a>, and <a href='https://twitter.com/reustle'>Twitter</a>.
-                <!-- You can also sign up for my <a href='https://tinyletter.com/reustle'>annual(ish) newsletter</a> which covers my adventures in greater detail. -->
-            </p>
-        </div>
-        
-    </div>
+        </header>
 
+        <section>
+            <strong>Recent projects</strong>
+            <p>
+                <strong><a href="https://techytokyo.com" target="_blank">🗼 Techy Tokyo</a></strong><br/>
+                Tools to strengthen the Tokyo tech community. Meetups and confer, job openings, workspaces, and more.
+            </p>
+            <p>
+                <strong><a href="https://humans.io" target="_blank">📇 Humans</a></strong><br/>
+                A personal CRM for the people you meet.
+            </p>
+            <p>
+                <strong><a href="https://feiecalc.com" target="_blank">✈️ FEIE Calc</a></strong><br/>
+                Location independent workers who are American citizens can save up to $20,000 on their taxes if they pass this physical presence test.
+            </p>
+            <p>
+                <strong><a href="https://tokyobikeshare.com" target="_blank">🚲 Tokyo Bike Share</a></strong><br/>
+                Tokyo has a comprehensive e-bike share program with an unfortunately lacking web interface.
+            </p>
+            <!--<p>
+                <strong><a href="http://greenrank.org" target="_blank">🌳 Green Rank</a></strong><br/>
+                How do countries compare when it comes to environmental promises.
+            </p>-->
+            <p>
+                <strong><a href="http://tokyotechmeetup.com" target="_blank">📅 Tokyo Tech Meetup</a></strong><br/>
+                Bringing together the English and Japanese Tokyo tech communities.
+            </p>
+        </section>
+
+        <section>
+            <strong>Around the world by train</strong>
+            <p>
+                I've been on a mission to circumnavigate the planet entirely by train and ship before age thirty. Only 9,300 km to go.
+            </p>
+            <a href="/rtw"><img src="static/rtw-map.jpg" alt="RTW Map" /></a>
+            <p>
+                39 countries – 19,491 km by train – 7,586 km by boat – 4.2 years spent on the road
+            </p>
+        </section>
+        
+        <!--
+        <section>
+            <strong>Let&#39;s work together</strong>
+            <p>
+                    A bio about reustle.co and what we offer, what we do, and who we've worked with. Tokyo and New York based.
+            </p>
+        </section>
+        -->
+        
+        <section>
+            <a href="mailto:shane@reustle.org"><u>shane@reustle.org</u></a>
+        </section>
+
+    </body>    
+</html>
