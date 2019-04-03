@@ -2,5 +2,4 @@
 
 ``` ./run.sh ```
 
-GeoJSON Editor: https://google-developers.appspot.com/maps/documentation/utils/geojson/
-
+GeoJSON Editor: https://geojson.io
