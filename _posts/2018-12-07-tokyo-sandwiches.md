@@ -12,6 +12,7 @@ Here are some of my favorite western style sandwiches around Tokyo.
 - [Camelback](https://goo.gl/maps/bLog1XHJjZK2)
 - [No.8 by Bear Pond](https://goo.gl/maps/sF2JtXeA1Hv)
 - [Brasserie VIRON](https://goo.gl/maps/6H4ea5qnN492)
+- [Harry's Sandwich Company](https://goo.gl/maps/o7kYJgGUyGhLX9eD8)
 
 ## Hiroo
 - [Cafe Early Bird](https://goo.gl/maps/Tb9npd34fRw)
