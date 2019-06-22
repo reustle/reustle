@@ -14,6 +14,7 @@ Here are some of my favorite western style sandwiches around Tokyo.
 - [Brasserie VIRON](https://goo.gl/maps/6H4ea5qnN492)
 - [Harry's Sandwich Company](https://goo.gl/maps/o7kYJgGUyGhLX9eD8)
 - [King George Sandwich Bar](https://goo.gl/maps/NptHeZnhaeg2NFo29)
+- [Day & Night](https://goo.gl/maps/euEsryRTQG9v5ZEGA)
 
 ## Hiroo
 - [Cafe Early Bird](https://goo.gl/maps/Tb9npd34fRw)
