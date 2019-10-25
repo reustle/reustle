@@ -15,6 +15,7 @@ Finding apartments in Tokyo is painful (thanks, AirBnB). Hopefully this helps.
 - [Fontana](http://www.tokyocityapartments.net/)
 - [Oyo Life](https://www.oyolife.co.jp/)
 - [AtHearth](https://athearth.com/)
+- [Hmlet](https://www.hmlet.com/rooms/tokyo)
 
 ## Share Houses
 - [Tokyo Chapter](https://tokyochapter.com/sharehouse/)
