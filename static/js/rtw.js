@@ -4,7 +4,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoicmV1c3RsZSIsImEiOiJjamxzNnZ0dXYwYm10M2twbDI4O
 
 // Utils
 
-let ROAD = '#ad9553'
+let ROAD = '#85be7e'
 
 var COLORS = {
     'train': '#43a1d8',
