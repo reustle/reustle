@@ -4,7 +4,11 @@ mapboxgl.accessToken = 'pk.eyJ1IjoicmV1c3RsZSIsImEiOiJjamxzNnZ0dXYwYm10M2twbDI4O
 
 // Utils
 
-let ROAD = '#85be7e'
+if(location.hash == ''){
+  let ROAD = '#85be7e';
+}else{
+  let ROAD = location.hash;
+}
 
 var COLORS = {
     'train': '#43a1d8',
