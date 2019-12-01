@@ -11,6 +11,7 @@ Finding apartments in Tokyo is painful (thanks, AirBnB). Hopefully this helps.
 - [Residence Tokyo](http://residencetokyo.com)
 - [Tokyo Monthly](https://www.tokyo-monthly.jp/en/)
 - [Duplex CS](http://DuplexCS.jp)
+- [Ken Corporation](http://kencorp.com)
 - [Oak House](https://www.oakhouse.jp/eng/house/apartment)
 - [Fontana](http://www.tokyocityapartments.net/)
 - [Oyo Life](https://www.oyolife.co.jp/)
