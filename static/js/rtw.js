@@ -4,7 +4,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoicmV1c3RsZSIsImEiOiJjamxzNnZ0dXYwYm10M2twbDI4O
 
 // Utils
 
-let ROAD = '#7cba74';
+let ROAD = '#7cba74'
+let LINE_WIDTH = 3.5
 
 var COLORS = {
     'train': '#43a1d8',
@@ -13,7 +14,7 @@ var COLORS = {
     'bus': ROAD,
     'taxi': ROAD,
     'car': ROAD,
-};
+}
 
 
 // Init Map
@@ -61,7 +62,7 @@ map.on('load', function(){
             },
             
             paint: {
-                'line-width': 2.5,
+                'line-width': LINE_WIDTH,
                 'line-blur': 0,
                 'line-color': {
                     'type': 'identity',
