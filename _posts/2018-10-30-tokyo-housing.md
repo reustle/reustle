@@ -4,7 +4,7 @@ permalink: /tokyo-housing.html
 layout: post
 ---
 
-Finding apartments in Tokyo is painful (thanks, AirBnB). Hopefully this helps.
+Finding apartments in Tokyo is painful, hopefully this helps.
 
 ## Serviced & Furnished Apartments
 - [Tokyo Monthly 21](https://eng.tm21.co.jp)
@@ -17,6 +17,11 @@ Finding apartments in Tokyo is painful (thanks, AirBnB). Hopefully this helps.
 - [Oyo Life](https://www.oyolife.co.jp/)
 - [AtHearth](https://athearth.com/)
 - [Hmlet](https://www.hmlet.com/rooms/tokyo)
+
+## Standard Apartments
+- [R-Store](https://www.r-store.jp)
+- [Real Estate Japan](https://realestate.co.jp/en/)
+- [Ken Corporation](http://kencorp.com)
 
 ## Share Houses
 - [Tokyo Chapter](https://tokyochapter.com/sharehouse/)
