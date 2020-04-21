@@ -7,6 +7,7 @@ layout: post
 Finding apartments in Tokyo is painful, hopefully this helps.
 
 ## Serviced & Furnished Apartments
+- [Metro Residences](https://metroresidences.com/jp/serviced-apartments/)
 - [Tokyo Monthly 21](https://eng.tm21.co.jp)
 - [Residence Tokyo](http://residencetokyo.com)
 - [Tokyo Monthly](https://www.tokyo-monthly.jp/en/)
