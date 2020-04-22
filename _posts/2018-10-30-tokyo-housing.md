@@ -18,6 +18,7 @@ Finding apartments in Tokyo is painful, hopefully this helps.
 - [Oyo Life](https://www.oyolife.co.jp/)
 - [AtHearth](https://athearth.com/)
 - [Hmlet](https://www.hmlet.com/rooms/tokyo)
+- [Monthly Apartment Tokyo](http://www.monthly-apartment-tokyo.com/)
 
 ## Standard Apartments
 - [R-Store](https://www.r-store.jp)
