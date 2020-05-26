@@ -16,7 +16,6 @@ Finding apartments in Tokyo is painful, hopefully this helps.
 - [Oak House](https://www.oakhouse.jp/eng/house/apartment)
 - [Fontana](http://www.tokyocityapartments.net/)
 - [Oyo Life](https://www.oyolife.co.jp/)
-- [AtHearth](https://athearth.com/)
 - [Hmlet](https://www.hmlet.com/rooms/tokyo)
 - [Monthly Apartment Tokyo](http://www.monthly-apartment-tokyo.com/)
 
@@ -25,6 +24,7 @@ Finding apartments in Tokyo is painful, hopefully this helps.
 - [Real Estate Japan](https://realestate.co.jp/en/)
 - [Ken Corporation](http://kencorp.com)
 - [IHome](http://i-home.tokyo/)
+- [AtHearth](https://athearth.com/)
 
 ## Share Houses
 - [Tokyo Chapter](https://tokyochapter.com/sharehouse/)
