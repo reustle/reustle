@@ -24,6 +24,7 @@ Finding apartments in Tokyo is painful, hopefully this helps.
 - [R-Store](https://www.r-store.jp)
 - [Real Estate Japan](https://realestate.co.jp/en/)
 - [Ken Corporation](http://kencorp.com)
+- [IHome](http://i-home.tokyo/)
 
 ## Share Houses
 - [Tokyo Chapter](https://tokyochapter.com/sharehouse/)
