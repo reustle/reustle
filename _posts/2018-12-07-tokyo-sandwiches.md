@@ -1,7 +1,7 @@
 ---
 title: Tokyo Sandwiches
 permalink: /tokyo-sandwiches.html
-layout: basic
+layout: basic-post
 ---
 
 Here are some of my favorite western style sandwiches around Tokyo.
