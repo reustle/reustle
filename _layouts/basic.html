@@ -1,0 +1,60 @@
+---
+---
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+        
+        <meta name="author" content="Shane Reustle">
+        <meta name="description" content="I live in Tokyo and help companies build great software." />
+        
+        <link rel="shortcut icon" sizes="16x16" href="static/favicon.ico" type="image/x-icon">
+
+        <title>{{ page.title }} - Shane Reustle</title>
+        
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css" />
+        <style type="text/css">
+            body {
+                font-family: Ubuntu, Verdana, Geneva, Tahoma, sans-serif;
+                padding: 10px 25px;
+                line-height: 26px; /* 32 desktop? */
+                font-size: 17px; /* 20 desktop? */
+                color: #333;
+            }
+            header, section {
+                max-width: 600px;
+                margin: 0px auto 40px auto;
+            }
+            a {
+                color: #333;
+                text-decoration: none;
+            }
+            p {
+                padding-bottom: 10px;
+            }
+            img {
+                width: 100%;
+                border-radius: 4px;
+            }
+        </style>
+
+    </head>
+    <body>
+        
+        <section>
+            {{ content }}
+        </section>
+
+        <script async defer data-domain="reustle.org" src="https://plausible.io/js/plausible.js"></script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2580539-25"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-2580539-25');
+        </script>
+
+    </body>
+</html>
