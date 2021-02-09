@@ -18,4 +18,3 @@ Here are some of my favorite western style sandwiches around Tokyo.
 
 ## Hiroo
 - [Cafe Early Bird](https://goo.gl/maps/Tb9npd34fRw)
-
