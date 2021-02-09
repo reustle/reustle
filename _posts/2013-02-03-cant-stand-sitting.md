@@ -1,7 +1,7 @@
 ---
 title: Can't Stand Sitting
 permalink: cant-stand-sitting.html
-layout: post
+layout: basic-post
 ---
 
 If you sit at a desk for hours every day, you've probably felt some pain in your lower back at some point. It's not surprising that sitting so much is actually [pretty bad for you](http://www.npr.org/2011/04/25/135575490/sitting-all-day-worse-for-you-than-you-might-think). About 10 months ago, I started experimenting with standing desks, and it has turned out to be one of the best things I've done regarding my work environment and posture. My back feels great, I have more energy and I even remain focused for longer periods of time.
@@ -16,8 +16,6 @@ It's pretty easy to get the basic guidelines down pat. Make sure your keyboard i
 
 Standing constantly will take some time to get used to. I started with 1 hour long periods of standing 2 or 3 times a day, while sitting in between. Over time I could stand longer and it would take longer and longer for my knees to get tired. At one point early on I picked up a tall stool to make transitioning between sitting and standing easy. After about 3 months I was in the groove and standing the entire day. My lower back pain was gone and my legs felt much less restricted. I used to have the urge once in a while to get up and walk to stretch but now that I'm standing all day, I no longer need to.
 
-
 Living in New York, my legs had gotten used to walking everywhere. I heard mentions of treadmill desks, and figured I'd give it a shot. $50 in hardware and two weekends later, it was up and running[.](http://instantrimshot.com/classic/?sound=rimshot) My boring treadmill had been successfully converted into a fire breathing code factory. My optimal speed seems to be around 2.6mph with a 30 minute break every 2 miles, but you'll need experiment to find what is right for you.
 
 If you end up giving it a shot, please send me a photo! I'd love to see what you come up with. Enjoy your healthier, more comfortable workstation!
-
