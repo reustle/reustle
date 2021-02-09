@@ -18,13 +18,13 @@ Web Workers are one of the new features in the HTML5 spec and allow us to essent
     </select>
     <input type='button' value='Find Prime' onclick='find_prime()' class='btn btn-default'/>
     <input type='button' value='Find Prime with Web Worker' onclick='find_prime_worker()' class='btn btn-default'/><br/><br/>
-    <div id='result' class='alert alert-info'><em>Select an option above</em></div>
+    <div id='result'><h2><em>Select an option above</em></h2></div>
 </div>
 
 
 A worker is initiated by passing a JavaScript file which includes a specific event listener. No global variables from the parent are available in the worker, which includes the document and window objects. The only way to pass data in is to fire a message event to the worker with a string attached. More recently, browsers have been starting to support sending an object which will be json stringified automatically. To be safe, you should always stringify the object yourself before sending to prevent any cross browser issues.
 
-Take a look at the source code below for a simple working example. You can [read more about web workers here](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers). If you have any questions, feel free to ask me.
+Take a look at the source code below for a simple working example. You can [read more about web workers here](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers). If you have any questions, feel free to ask.
 
 <script>
     
