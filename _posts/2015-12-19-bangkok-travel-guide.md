@@ -18,7 +18,7 @@ To get your WiFi password, dial <b>*871*4#</b> and you’ll get an sms shortly a
 ## Accomodation
 
 * [AirBnB](https://www.airbnb.com/c/sreustle?s=4) has a bunch of listings for beautiful, cheap apartments. Many of them are available on a monthly basis at a lower price.
-* If you’re just passing through, [Lub D](http://lubd.com/siamsquare/' (Siam Square location) is a clean, cheap hostel in a great location. They have a helpful staff and plenty of travelers hanging out around the lobby looking for an adventure in the city.
+* If you’re just passing through, [Lub D](http://lubd.com/siamsquare/) (Siam Square location) is a clean, cheap hostel in a great location. They have a helpful staff and plenty of travelers hanging out around the lobby looking for an adventure in the city.
 
 
 ## Neighborhoods
