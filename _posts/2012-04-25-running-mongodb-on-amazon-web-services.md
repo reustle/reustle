@@ -1,7 +1,7 @@
 ---
 title: Running MongoDB on Amazon Web Services
 permalink: running-mongodb-on-amazon-web-services.html
-layout: post
+layout: basic-post
 ---
 
 **Note:** This article was written in 2012 and is severely outdated. I suggest you find more recent resources on the topic.
