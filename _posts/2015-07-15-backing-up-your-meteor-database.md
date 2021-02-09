@@ -1,7 +1,7 @@
 ---
 title: Backing Up Your Meteor.com Database
 permalink: backing-up-your-meteorcom-database.html
-layout: post
+layout: basic-post
 ---
 
 Meteor provides a nifty little hosting service for your projects through the `meteor deploy` command. Once deployed, your app gets its own mongo instance where it stores all of your data. Creating a backup of this remote instance is pretty straight forward, once we have the connection credentials.
@@ -13,4 +13,3 @@ meteor mongo your-app.meteor.com --url | awk -F'[:/@]' '{print "mongodump --host
 </pre>
 
 You'll see the output of the mongodump command as it creates the backup folder and pulls down a copy of each collection. If you need to restore a copy of the database, connect to remote instance and clear everything out, and then use mongorestore to revert back.
-
