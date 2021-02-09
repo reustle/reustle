@@ -1,7 +1,7 @@
 ---
 title: Surviving Without Internet
 permalink: surviving-without-internet.html
-layout: post
+layout: basic-post
 ---
 
 Wandering around foreign areas with no internet access has been quite the learning experience. Before the trip begin, I considered myself fairly disconnected, but I still found myself reaching for the phone here and there. It isn't much of an issue when you don't have any plans, but can be a pain if you're trying to find your way to a specific place (eg. home). Here are some tools and tricks I've been using to help make living offline easier.
@@ -30,7 +30,4 @@ When I'm about to go on a multi-leg journey, I tend to open as much information 
 
 I could easily get a local SIM card and have mobile data access, but where's the adventure in that? I picked up a [TruPhone](http://truphone.com) SIM card which gives me voice/text/data service in just about every country in the world. It's nice to know you can SMS as soon as you get off the plane or ferry. The plan has different rates depending on where you are, and they're usually pretty reasonable for calls and texts. Data rates are pretty high though, so I keep that turned off at all times. Bonus, there is no monthly charge.
 
-<div class='text-center'>
-<img class='img-rounded' alt='On a ferry from Germany to Denmark' src='/static/resources/ferry.jpg'/>
-</div>
-
+<img alt='On a ferry from Germany to Denmark' src='/static/resources/ferry.jpg'/>
