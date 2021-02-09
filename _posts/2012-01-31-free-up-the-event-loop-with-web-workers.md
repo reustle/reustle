@@ -17,7 +17,7 @@ Web Workers are one of the new features in the HTML5 spec and allow us to essent
         <option value='8000'>8,000th Prime</option>
     </select>
     <input type='button' value='Find Prime' onclick='find_prime()' class='btn btn-default'/>
-    <input type='button' value='Find Prime with Web Worker' onclick='find_prime_worker()' class='btn btn-default'/><br/><br/>
+    <input type='button' value='Find Prime with Web Worker' onclick='find_prime_worker()' class='btn btn-default'/><br/>
     <h2><div id='result'><em>Select an option above</em></div></h2>
 </div>
 
