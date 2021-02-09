@@ -1,7 +1,7 @@
 ---
 title: Free Up The Event Loop With Web Workers
 permalink: free-up-the-event-loop-with-web-workers.html
-layout: post
+layout: basic-post
 ---
 
 JavaScript gives us an event loop so we can set timeouts and listeners without blocking all script execution. The problem with this approach shows when you start writing CPU intensive code. The event loop can only execute one task at a time, so if one of those operations takes 5 seconds, nothing else can run until it has finished. On top of the JavaScript engine being locked during this time, the browser will not render any UI changes. This results in the entire browser freezing. As we move to heavier client side applications, this limitation becomes more obvious.
