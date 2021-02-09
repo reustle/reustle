@@ -1,8 +1,10 @@
 ---
 title: Managing Long-Running Processes With Supervisor
 permalink: managing-long-running-processes-with-supervisor.html
-layout: post
+layout: basic-post
 ---
+
+**Note**: This article was created in 2012 and is probably outdated. You might want to find more up-to-date source of information.
 
 [Supervisor](http://supervisord.org/) is a great tool to start and manage long-running processes and the log files associated with them. It offers a lot of helpful features and is easy to get up and running.
 
@@ -11,9 +13,10 @@ layout: post
 
 Supervisor works out of the box, so this part is easy.
 
-{% highlight bash %}
+
+<pre>
 sudo apt-get install supervisor -y && sudo supervisord
-{% endhighlight %}
+</pre>
 
 
 ## Our First Program
@@ -22,22 +25,25 @@ Supervisor looks for configuration files in **/etc/supervisor/conf.d/** and it i
 
 _Create /etc/supervisor/conf.d/test_python.conf containing:_
 
-{% highlight bash %}
+
+<pre>
 [program:test_python]
 command=python -u test.py
 directory=/home/ubuntu
 stdout_logfile=/home/ubuntu/test_python_output.txt
 redirect_stderr=true
-{% endhighlight %}
+</pre>
 
 _Create ~/test.py containing:_
 
-{% highlight python %}
+
+<pre>
 import time
 while True:
     print(time.ctime())
     time.sleep(1)
-{% endhighlight %}
+</pre>
+
 
 When creating the conf file, be sure to replace **/home/ubuntu** both times with the path to your home directory (~ isn't allowed). If you run test.py manually you'll see it prints out the time once per second.
 
@@ -145,10 +151,11 @@ Supervisor provides a really nifty web interface to monitor and restart your pro
 
 _Add the following to /etc/supervisor/supervisord.conf_
 
-{% highlight bash %}
+
+<pre>
 [inet_http_server] 
 port=*:9001
-{% endhighlight %}
+</pre>
 
 
 ## One-Time Scripts
@@ -159,11 +166,12 @@ I've found that Supervisor also works great for running commonly used scripts th
 ## Examples
 
 _MongoDB_
-{% highlight bash %}
+
+<pre>
 [program:mongod_member]
 command=/home/ubuntu/mongodb-linux-x86_64-2.0.6/bin/mongod --dbpath /mnt/mongo/ --replSet mongo5 --nojournal
 directory=/home/ubuntu
 stdout_logfile=/mnt/log/mongod.log
 redirect_stderr=true
-{% endhighlight %}
+</pre>
 
