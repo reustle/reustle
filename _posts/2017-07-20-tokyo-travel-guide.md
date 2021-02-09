@@ -4,7 +4,7 @@ permalink: tokyo-travel-guide.html
 layout: basic-post
 ---
 
-<div class='text-center'>
+<center>
 	<a href='#connectivity'>📱 Connectivity</a>
 	|
 	<a href='#neighborhoods'>🏘 Neighborhoods</a>
@@ -20,7 +20,7 @@ layout: basic-post
 	<a href='#activities'>🚲 Activities</a>
 	|
 	<a href='#money'>💴 Money</a>
-</div>
+</center><br/><br/>
 
 After falling in love with Japan during my first short visits, I spent more than a year exploring Tokyo's beautiful quiet neighborhoods by foot and bicycle. I was even <a href='https://tokyocheapo.com/living/impressions-tokyo-interview-nomadic-backpacker-shane-reustle/' target='_blank'>interviewed about my experience</a> on TokyoCheapo. This article contains some notes I've compiled to help you hit the ground running.
 
@@ -28,7 +28,7 @@ After falling in love with Japan during my first short visits, I spent more than
 
 <a name='connectivity'></a>
 
-##📱 Connectivity
+## 📱 Connectivity
 
 If you don't already have <a href='https://fi.google.com/about/' target='_blank'>Google Fi</a>, Head to any Bic Camera or Yodobashi location, or any phone shop in the airport, and pick up the <a href='http://www.biccamera.com.e.lj.hp.transer.com/bc/disp/CSfDispListPage_001.jsp?dispNo=&q=travel+sim&x=0&y=0' target='_blank'>Japan Travel SIM</a>. You can choose between either 1 month (1 gb) for ¥2,500 or 3 months (2 gb) for ¥3,800. You can also add more data to your card by purchasing an IIjmio card at any convenience store (2 gb for ¥3,000). A few similar companies are popping up and offering data-only SIMs as well, and they're likely just as good.
 
