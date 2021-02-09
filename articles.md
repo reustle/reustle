@@ -8,7 +8,7 @@ layout: post
     {% unless post.draft %}
       <li>
         <a href='{{ post.url | prepend: site.baseurl | replace:'.html','' }}'>{{ post.title }}</a>
-        ({{ post.date | date: '%b %Y' }})
+        <em>({{ post.date | date: '%b %Y' }})</em>
       </li>
     {% endunless %}
   {% endfor %}
