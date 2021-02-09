@@ -1,10 +1,10 @@
 ---
 title: Japan in New York
 permalink: /japan-in-new-york.html
-layout: post
+layout: basic-post
 ---
 
-Here are some misc Japan related resources around New York.
+I have lived in New York and Tokyo for a few years each. WHere are some misc Japan related resources around New York to get your Japan fix.
 
 ## Organizations
 
@@ -19,4 +19,3 @@ Here are some misc Japan related resources around New York.
 * [J-Kuru Japanese Language Meetup Group](https://www.meetup.com/j-kuru/events/)
 * [New York Nihongo Meetup Group](https://www.meetup.com/New-York-%E4%BC%9A%E8%A9%B1/)
 * [NY Japanese Language Meeutp Group](https://www.meetup.com/japanese-19/events/)
-
