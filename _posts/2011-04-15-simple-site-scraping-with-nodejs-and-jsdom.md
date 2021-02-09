@@ -1,7 +1,7 @@
 ---
 title: Simple Site Scraping With NodeJS And JSDom
 permalink: simple-site-scraping-with-nodejs-and-jsdom.html
-layout: post
+layout: basic-post
 ---
 
 I've been playing with Node on and off over the past couple of weeks and it's really starting to grow on me. I initially looked into it because I'm intrigued by the thought of using one language for both client and server side coding. Turns out, as people have pointed out, it's fast too. Really fast. I spent some time messing around with the hello world examples, built some simple APIs, and even gave a talk at [BarCamp Boston](http://barcampboston.org) about the basics of Node, but I want to do something that takes advantage of the JS nature of Node. Let's start off with a simple site scraping example where we pull the current temperature. As the examples get more complex, we'll be able to leverage libraries like jQuery to do more complex scraping in an already familiar syntax.
