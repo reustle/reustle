@@ -15,10 +15,10 @@ Once you have your video piped into a canvas, you can use the **getImageData** m
 	<canvas id='my_canvas' style='display:none'></canvas>
 	
 	<div>
-		<div id='current_rgb' class='btn btn-default disabled'>rgb(255,255,255)</div>
-		<button id='reset_bg'>Reset</button>
+		<span id='current_rgb'>rgb(255,255,255)</span>
+		<button id='reset_bg'>Reset Background</button>
 	</div>
-</div><br/><br/>
+</div>
 
 If you take a look at the source code of this page, it should be fairly clear as to how it works. To reiterate, I am playing a video using the new HTML5 &#60;video&#62; tag, which is hidden. I then stream that video data into a canvas, which I read 30 times per second. Every time I read the canvas, I figure out the average color and set that as the background color. In my next blog post, I will work on moving some of these expensive calculations out of the main event loop using web workers.
 
