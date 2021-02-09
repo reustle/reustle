@@ -4,6 +4,8 @@ permalink: running-mongodb-on-amazon-web-services.html
 layout: post
 ---
 
+**Note:** This article was written in 2012 and is severely outdated. I suggest you find more recent resources on the topic.
+
 I've spent the past few months managing and scaling multiple MongoDB clusters on AWS, and have picked up a few tricks along the way. They may help you as you are [setting up your first Mongo instance](http://docs.mongodb.org/manual/installation/#installation-guides), or trying to keep your existing instances running smoothly.
 
 ## Choosing an AMI
@@ -17,18 +19,22 @@ A good practice when setting up a fresh instance for Mongo is to raise the limit
 
 _Overwrite /etc/sysctl.conf with_
 
-{% highlight bash %}
+
+<pre>
 fs.file-max = 360000
 net.ipv4.ip_local_port_range = 1024 65000
 net.ipv4.tcp_max_syn_backlog = 2048
-{% endhighlight %}
+</pre>
+
 
 _Overwrite /etc/security/limits.conf with_
 
-{% highlight bash %}
+
+<pre>
 ubuntu     soft     nofile     350000
 ubuntu     hard     nofile     350000
-{% endhighlight %}
+</pre>
+
 
 Once those changes are made, restart the system and you're good to go. You can run <em>ulimit -a</em> to make sure the limit has been updated properly.
 
@@ -42,7 +48,8 @@ When you get around to starting Mongo, you're going to need to make some decisio
 
 Backing up a running Mongo instance can be tricky. There are ways to lock the database while copying the files, to ensure no data corruption, but that downtime can be painful. The best way I've found to go about this is to use a script created by Eric Hammond called [ec2-consistent-snapshot](http://alestic.com/2009/09/ec2-consistent-snapshot) which has been modified by Eric Lubow to [include mongo support](http://eric.lubow.org/2011/databases/mongodb/ec2-consistent-snapshot-with-mongo/). This script will freeze Mongo, freeze XFS if you're using it, and take a point in time snapshot of your data drive. This causes your database to be locked for a total of about 5 seconds, which is not bad at all compared to other methods. To install the script, there are a few packages you'll need to install. I've listed the sequence commands below that worked best for me.
 
-{% highlight bash %}
+
+<pre>
 sudo add-apt-repository ppa:alestic
 sudo apt-get update
 sudo apt-get install -y ec2-consistent-snapshot build-essential libio-socket-ssl-perl libdatetime-perl
@@ -52,13 +59,15 @@ sudo PERL_MM_USE_DEFAULT=1 cpan -fi MongoDB MongoDB::Admin
 cd /usr/bin/
 sudo wget https://raw.github.com/elubow/ec2-consistent-snapshot/master/ec2-consistent-snapshot -O ec2-consistent-snapshot
 sudo chmod +x ec2-consistent-snapshot
-{% endhighlight %}
+</pre>
+
 
 Once installed, you can start snapshotting your drive(s). In the command below, you're going to need to replace the AWS access key and secret key with your own. You'll also need to set the filesystem path if you are using XFS (otherwise remove it), and the volume ID(s) at the end.
 
-{% highlight bash %}
+
+<pre>
 ec2-consistent-snapshot --debug --mongo --aws-access-key-id=ABCDEFGHI --aws-secret-access-key=ABCDEFG --xfs-filesystem=/ebs_disk/ --region us-east-1 --description "MongoDB Manual Snapshot" vol-VOLID
-{% endhighlight %}
+</pre>
 
 
 ## Munin graphs
