@@ -1,6 +1,6 @@
 ---
 title: Articles
-layout: post
+layout: basic-post
 ---
 
 <ul>
@@ -13,4 +13,3 @@ layout: post
     {% endunless %}
   {% endfor %}
 </ul>
-
