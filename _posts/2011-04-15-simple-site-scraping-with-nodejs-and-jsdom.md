@@ -8,7 +8,8 @@ I've been playing with Node on and off over the past couple of weeks and it's re
 
 For this first example, you're going to need the Node packages Request and [JSDOM](https://github.com/tmpvar/jsdom). You can get both of these using [npm](http://npmjs.org/) (npm install request jsdom). This is a pretty short example (9 lines), so I'll skip right to the code.
 
-{% highlight javascript %}
+
+<pre>
 var request = require('request');
 var jsdom = require('jsdom');
 
@@ -22,7 +23,8 @@ request({uri: req_url}, function(error, response, body){
 		console.log(temp);
 	}
 });
-{% endhighlight %}
+</pre>
+
 
 We started off by requiring **Request** and **JSDOM**. We then made the request to the site we're going to scrape and set a callback function to handle the response. Inside that callback, we make sure the request was successful by checking the HTTP status code. If the request was successful, we pipe the response into JSDOM to render a duplicate version of the DOM locally so that we can interact with it. Now that we have a local copy of the webpage, we can do whatever we want with it. We only need 1 line of code to extract the current temperature from the page, which we send back to the console for the user to see.
 
