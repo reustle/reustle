@@ -1,7 +1,7 @@
 ---
 title: Reading HTML5 Video Data
 permalink: reading-html5-video-data.html
-layout: post
+layout: basic-post
 ---
 
 One of the cooler features I've found in HTML5&#39;s new &#60;video&#62; tag is the ability to easily stream its content to a canvas. By passing the video element to the **drawImage** method of a canvas, along with some size parameters, you're able to create a duplicate output of the video. This opens up a whole new set of options for what you can do with your video data. We're going to use it to find the average color of the frame.
@@ -90,4 +90,3 @@ If you take a look at the source code of this page, it should be fairly clear as
 	}
 
 </script>
-
