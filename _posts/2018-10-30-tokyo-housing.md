@@ -1,7 +1,7 @@
 ---
 title: Tokyo Housing
 permalink: /tokyo-housing.html
-layout: post
+layout: basic-post
 ---
 
 Finding apartments in Tokyo is painful, hopefully this helps.
