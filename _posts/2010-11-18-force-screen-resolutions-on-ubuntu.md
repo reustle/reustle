@@ -8,22 +8,28 @@ I was recently trying to change the resolution of an external monitor on Ubuntu 
 
 First, you will need to generate a new modeline to use in the configuration by passing your desired resolution and rate to cvt. I will use 1920x1080 throughout this tutorial.
 
-{% highlight bash %}
+
+<pre>
 cvt 1920 1080 60
-{% endhighlight %}
+</pre>
+
 
 That should return something that looks like this
 
-{% highlight bash %}
+
+<pre>
 # 1920x1080 59.96 Hz (CVT 2.07M9) hsync: 67.16 kHz; pclk: 173.00 MHz
 Modeline "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync
-{% endhighlight %}
+</pre>
+
 
 Copy everything on the second line after "Modeline " and then add that as a new mode like this
 
-{% highlight bash %}
+
+<pre>
 xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync
-{% endhighlight %}
+</pre>
+
 
 Now that the mode has been added, we need to move it to the proper monitor. If you are trying to add this resolution to your main display, then you can skip the next step.
 
@@ -31,9 +37,11 @@ You can use the **xrandr** command to see the names of each attached monitor. If
 
 Next we will move the mode we just created to VGA1 using the name of the new mode from the previous command (the text in double quotes). If you cannot find the VGA1 device, it may be called CRT1.
 
-{% highlight bash %}
+
+<pre>
 xrandr --addmode VGA1 "1920x1080_60.00"
-{% endhighlight %}
+</pre>
+
 
 You will now see the new resolution listed in the display options. You can read more on [configuring X here](https://wiki.ubuntu.com/X/Config/Resolution).
 
