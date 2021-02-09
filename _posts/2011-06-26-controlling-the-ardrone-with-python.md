@@ -1,7 +1,7 @@
 ---
 title: Controlling The ARDrone With Python
 permalink: controlling-the-ardrone-with-python.html
-layout: post
+layout: basic-post
 ---
 
 This past weekend I helped out with [GameHackDay](http://gamehackday.org) and spent most of my time hacking on one of the 12 [ARDrone Parrots](http://ardrone.parrot.com). After spending some time fighting with the open [ARDrone API](https://projects.ardrone.org/) which was written in C, I was relieved to discover a [Python ARDrone API](https://github.com/venthur/python-ardrone).
@@ -34,4 +34,3 @@ The next step in controlling the drone is to read in the sensor data. The drone 
 I have not decided if I want to continue controlling the drone using Python or move over to NodeJS. I feel the event loop in JavaScript is a better fit for this kind of scripting. I found a rudimentary [NodeJS ARDrone API](https://github.com/timjb/node-ardrone) here, which should get me started. For now, I will continue to learn more about it using Python.
 
 **Side Note**: If you're in the NYC area, join the [ARDrone Meetup Group](http://www.meetup.com/ardrone/).
-
