@@ -1,7 +1,7 @@
 ---
 title: Force Screen Resolutions On Ubuntu
 permalink: force-screen-resolutions-on-ubuntu.html
-layout: post
+layout: basic-post
 ---
 
 I was recently trying to change the resolution of an external monitor on Ubuntu 10.10 and found that the usual xorg.conf file no longer existed. You are able to create one by running **X -configure** in recovery mode, but that seems like a bit of a pain. Here is a simpler way to add screen resolution options in Ubuntu 10.10.
