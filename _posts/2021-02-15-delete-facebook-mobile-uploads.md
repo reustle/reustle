@@ -10,3 +10,6 @@ I've created a simple script that you can run within your browsers console to cl
 
 <script src="https://gist.github.com/reustle/71882f572be3246a24fd312a9894ff3b.js"></script>
  
+See it in action
+
+<img src="static/resources/delete-facebook-mobile-uploads.gif" alt="Delete Facebook Mobile Uploads Album"/>
