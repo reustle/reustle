@@ -4,7 +4,7 @@ permalink: delete-facebook-mobile-uploads.html
 layout: basic-post
 ---
 
-Facebook does not give you the option to delete your Mobile Uploads photo album. If you've got hundreds or thousand photos here, it will take you a few hours to delete them one-by-one.
+Facebook does not give you the option to delete your Mobile Uploads photo album. If you've got hundreds or thousand photos here, it will take a few hours to delete them one-by-one.
 
 I've created a simple script that you can run within your browsers console which automates this. It will click `Edit` on the first photo, then `Delete Photo`, followed by `Delete` on the confirmation modal. It repeats this process every 6 seconds until there are none left.
 
