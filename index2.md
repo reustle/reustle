@@ -12,7 +12,7 @@ I live in Tokyo and help companies [build great software](https://reustle.co). I
 
 ## Recent projects
 
-*<a href="https://tokyoterraces.com" target="_blank">🌴 Tokyo Terraces</a>*
+[**🌴 Tokyo Terraces**](https://tokyoterraces.com)
 
 Making it easier to find cafes and restaurants with outdoor seating.
 
