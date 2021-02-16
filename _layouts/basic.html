@@ -11,7 +11,7 @@
 
         <link rel="shortcut icon" sizes="16x16" href="static/favicon.ico" type="image/x-icon">
 
-        <title>{{ page.title }} - Shane Reustle</title>
+        <title>{% if page.title %}{{ page.title }} - {% endif %}Shane Reustle</title>
 
         <style type="text/css">
             body {
