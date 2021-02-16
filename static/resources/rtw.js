@@ -16,20 +16,16 @@ var COLORS = {
     'car': ROAD,
 }
 
-
 // Init Map
 var map = new mapboxgl.Map({
     container: 'map',
-    //style: 'mapbox://styles/mapbox/satellite-v9',
     style: 'mapbox://styles/mapbox/dark-v9',
-    //style: 'mapbox://styles/reustle/cjk79zycy0by52so62irk2j4m',
-    zoom: 1.5,
+    zoom: 1,
     minZoom: 1,
     maxZoom: 5,
-    //maxBounds: [ [-180, -85], [180, 85] ],
     center: {
-        lng: 9.346689392360958,
-        lat: 25.680995922791197
+        lng: 23.15737211079022,
+        lat: 39.477279244973346
     }
 });
 
@@ -79,4 +75,3 @@ map.on('load', function(){
         
     })
 });
-
