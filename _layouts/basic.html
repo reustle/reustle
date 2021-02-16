@@ -4,12 +4,54 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <title>{% if page.title %}{{ page.title }} - {% endif %}Shane Reustle</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <meta name="author" content="Shane Reustle">
     <meta name="description" content="Helping companies in Tokyo build great software" />
-    <title>{% if page.title %}{{ page.title }} - {% endif %}Shane Reustle</title>
-    <link href="/static/basic.css" rel="stylesheet" />
     <link rel="shortcut icon" sizes="16x16" href="static/favicon.ico" type="image/x-icon">
+
+    <style type="text/css">
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 10px 25px;
+        line-height: 1.6em;
+        font-size: 16px;
+        color: #444;
+      }
+      h1, h2, h3 {
+        margin: 1em 0;
+        padding: 0px;
+      }
+      h2 {
+        font-size: 17px;
+      }
+      header, section, footer {
+        max-width: 720px;
+        margin: 0px auto 40px auto;
+      }
+      a {
+        color: rgb(50, 115, 220);
+      }
+      p {
+        padding: 0 0 1em 0;
+        margin: 0;
+        text-align: justify;
+      }
+      ul {
+        text-align: justify;
+        padding-left: 1.1em;
+        line-height: 2em;
+      }
+      img {
+        width: 100%;
+        border-radius: 4px;
+      }
+      pre {
+        background: #efefef;
+        overflow: scroll;
+        padding: 1em;
+      }
+    </style>
 
   </head>
   <body>
