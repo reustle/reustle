@@ -13,6 +13,7 @@ Just notes for now, will expand later.
 - https://bikes-rent.com/
 - https://airride-bike.com/
 - http://bs-showya.co.jp/fanride.html
+- https://bike-rental.yamaha-motor.co.jp
 
 
 ## Buying or renting a motorcycle
