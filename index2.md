@@ -5,7 +5,6 @@ layout: basic
   <h2><a href="/">Shane Reustle</a></h2>
 </header>
 
-<section>
 
 I live in Tokyo and help companies [build great software](https://reustle.co). In my spare time, you can find me getting lost on a motorcycle in the mountains and organizing community events.
 
@@ -75,8 +74,6 @@ At age 24, I left New York and set out on a mission to circumnavigate the planet
 <a href="/rtw"><img src="static/rtw-map.jpg" alt="RTW Map" /></a>
 
 41 countries – 48,000 km by train – 17,900 km by boat – 4.2 years on the road
-
-</section>
 
 <footer>
   <a href="mailto:shane@reustle.org">shane@reustle.org</a>
