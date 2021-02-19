@@ -18,4 +18,4 @@ I have lived in New York and Tokyo for a few years each. WHere are some misc Jap
 * [Japan Society Events](https://www.japansociety.org/page/calendar)
 * [J-Kuru Japanese Language Meetup Group](https://www.meetup.com/j-kuru/events/)
 * [New York Nihongo Meetup Group](https://www.meetup.com/New-York-%E4%BC%9A%E8%A9%B1/)
-* [NY Japanese Language Meeutp Group](https://www.meetup.com/japanese-19/events/)
+* [NY Japanese Language Meetup Group](https://www.meetup.com/japanese-19/events/)
