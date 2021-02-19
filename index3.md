@@ -13,9 +13,12 @@ I live in Tokyo and help companies [build great software](https://reustle.co). I
 ## Recent projects
 
 [**Tokyo Terraces**](https://tokyoterraces.com)
+
 Making it easier to find cafes and restaurants with outdoor seating.
 
+
 [**COVID-19 Japan**](https://covid19japan.com)
+
 Japans first COVID tracking dashboard, available in many languages.
 
 [**Tokyo Tech Meetup**](https://tokyotechmeetup.com)
