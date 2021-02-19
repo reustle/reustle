@@ -21,7 +21,7 @@ Making it easier to find cafes and restaurants with outdoor seating.
 
 Japans first COVID tracking dashboard, available in many languages.
 
-[**Tokyo Tech Meetup**](https://tokyotechmeetup.com)
+[**Tokyo Tech Meetup**](https://tokyotechmeetup.com)<br/>
 Bringing together the English and Japanese Tokyo tech communities.
 
 [**Tokyo Tech**](https://tokyotech.com)
