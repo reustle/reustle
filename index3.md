@@ -7,13 +7,13 @@ layout: basic
 
 <section markdown="1">
 
-I live in Tokyo and help companies [build great software](https://reustle.co). In my spare time, you can find me getting lost on a motorcycle in the mountains and organizing community events.
+I live in Tokyo and help companies [build great software](https://reustle.co). In my spare time, you'll find me getting lost on a motorcycle in the mountains or organizing community events.
 
 
 ## Recent projects
 
 [**Tokyo Terraces**](https://tokyoterraces.com)<br/>
-Making it easier to find cafes and restaurants with outdoor seating.
+Making it easier to find cafes and restaurants with outdoor seating and heaters.
 
 [**COVID-19 Japan**](https://covid19japan.com)<br/>
 Japans first COVID tracking dashboard, available in many languages.
