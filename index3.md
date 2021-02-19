@@ -12,28 +12,25 @@ I live in Tokyo and help companies [build great software](https://reustle.co). I
 
 ## Recent projects
 
-[**Tokyo Terraces**](https://tokyoterraces.com)
-
+[**Tokyo Terraces**](https://tokyoterraces.com)<br/>
 Making it easier to find cafes and restaurants with outdoor seating.
 
-
-[**COVID-19 Japan**](https://covid19japan.com)
-
+[**COVID-19 Japan**](https://covid19japan.com)<br/>
 Japans first COVID tracking dashboard, available in many languages.
 
-[**Tokyo Tech Meetup**](https://tokyotechmeetup.com)<br/>
+[**Tokyo Tech Meetup**](https://meetup.tokyotech.com)<br/>
 Bringing together the English and Japanese Tokyo tech communities.
 
-[**Tokyo Tech**](https://tokyotech.com)
+[**Tokyo Tech**](https://tokyotech.com)<br/>
 Tools to strengthen the Tokyo tech community. Meetups, conferences, workspaces, and more.
 
-[**Geo Tokyo**](https://geotokyo.com)
+[**Geo Tokyo**](https://geotokyo.com)<br/>
 A community of map nerds interested in cartography, geospatial data, and beautiful visualizations.
 
-[**FEIE Calc**](https://feiecalc.com)
+[**FEIE Calc**](https://feiecalc.com)<br/>
 Location independent workers who pay taxes in America can save up to $20,000 if they pass this physical presence test.
 
-[**Schengen Calc**](https://schengencalc.com)
+[**Schengen Calc**](https://schengencalc.com)<br/>
 The Schengen Zone in Europe allows for visa-free travel across 26 countries, with a maximum stay of 180 days.
 
 
