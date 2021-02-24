@@ -16,6 +16,7 @@ Just some notes for now, will expand later.
 - [Yamaha Bike Rental](https://bike-rental.yamaha-motor.co.jp)
 - [Nihon Auto Osaka](https://www.nihon-auto.com/rental-bike/rentalbike/)
 - [Honda GO](https://www.honda.co.jp/HondaGO/)
+- [B-Renta](https://b-renta.jp/)
 
 
 ## Buying or renting a motorcycle
