@@ -7,7 +7,7 @@ layout: basic
 
 <section markdown="1">
 
-I live in Tokyo and help companies [build great software](https://reustle.co). In my spare time, you'll find me getting lost on a motorcycle in the mountains or organizing community events.
+I live in Tokyo and help companies [build great software](https://reustle.co). In my spare time, you'll find me getting lost on a motorcycle in the mountains and organizing community events.
 
 
 ## Recent side projects
@@ -16,16 +16,16 @@ I live in Tokyo and help companies [build great software](https://reustle.co). I
 Making it easier to find cafes and restaurants with outdoor seating and heaters.
 
 [**COVID-19 Japan**](https://covid19japan.com)<br/>
-Japans first COVID tracking dashboard, available in many languages and used by millions.
+Japans first COVID tracking dashboard, used by millions across 21 languages.
 
 [**Tokyo Tech Meetup**](https://meetup.tokyotech.com)<br/>
-Bringing together the English and Japanese Tokyo tech communities.
+Weaving together the English and Japanese Tokyo tech communities.
 
 [**Tokyo Tech**](https://tokyotech.com)<br/>
 Meetups, conferences, workspaces, and more around Tokyo.
 
 [**Geo Tokyo**](https://geotokyo.com)<br/>
-A community of map nerds interested in cartography, geospatial data, and beautiful visualizations.
+A community of map fans interested in cartography, geospatial data, and beautiful visualizations.
 
 [**FEIE Calc**](https://feiecalc.com)<br/>
 Location independent workers who pay taxes in America can save more than $20,000 if they pass this physical presence test.
