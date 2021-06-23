@@ -7,7 +7,7 @@ layout: basic
 
 <section markdown="1">
 
-I live in Tokyo and help companies [build great software](https://reustle.co). In my spare time, you'll find me getting lost on a motorcycle in the mountains and organizing community events.
+I live in Tokyo and help companies [build great software](https://reustle.co). In my spare time, you'll find me getting lost on a motorcycle in the mountains or organizing community events.
 
 
 ## Recent side projects
