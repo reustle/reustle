@@ -22,6 +22,6 @@ For removing likes (favorites), [this easy code snippet](https://gist.github.com
 
 **Reddit**
 
-To delete my the reddit account I had since I was a teen, the Chrome extension called [Nuke Reddit Account](https://chrome.google.com/webstore/detail/nuke-reddit-history/aclagjkmidmkcdhkhlicmgkgmpgccaod?hl=en) did a great job. It goes through each of your comments and edits them to be blank, to make sure the text doesn't linger around anywhere, and then it deletes those empty posts.
+To delete my the reddit account I had since I was a teen, the Chrome extension called [Nuke Reddit Account](https://chrome.google.com/webstore/detail/nuke-reddit-history/aclagjkmidmkcdhkhlicmgkgmpgccaod?hl=en) did a great job. It goes through each of your comments and edits them to be blank, to make sure the text doesn't linger around anywhere, and then it deletes those empty posts. I needed to run it a few times to make sure it got everything.
 
 Happy scrubbing!
