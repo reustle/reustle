@@ -54,7 +54,7 @@ Tokyo has a comprehensive e-bike share program with an unfortunately lacking web
 
 ## Around the world by train
 
-At age 24, I left New York and set out on a mission to circumnavigate the planet entirely by train. Next time by motorcycle? [Read more](/rtw)
+At age 24, I left New York and set out on a mission to circumnavigate the planet entirely by train and ship. Next time by motorcycle? [Read more](/rtw)
 
 <a href="/rtw"><img src="static/rtw-map.jpg" alt="Shane Reustle RTW Map" /></a>
 
